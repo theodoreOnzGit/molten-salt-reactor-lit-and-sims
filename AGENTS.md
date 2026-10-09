@@ -136,6 +136,7 @@ Write the predicted outcome before the run, and keep it next to the result.
 - **Build and test in release mode** (`cargo test --release`).
 - **Track work in GitHub issues** on this repository. Propose closures with
   evidence; the maintainer closes them.
-- **Do not commit or push unless asked.** Never force-push.
+- **Do not commit or push unless asked.** Never force-push unless the
+  maintainer explicitly asks for a history rewrite.
 - **AI output is draft until reviewed.** Make human review cheap: show the
   picture before the code, state the predictions, and list what was not done.

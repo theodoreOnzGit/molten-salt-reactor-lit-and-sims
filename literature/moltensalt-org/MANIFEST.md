@@ -106,7 +106,6 @@ Titles and dates are as the source page lists them. SHA-256 is of the file as do
 | [`ornl/ORNL-5078.pdf`](ornl/ORNL-5078.pdf) | 1976-02 | Molten-Salt Reactor Program: Semiannual Progress Report for Period Ending August 31, 197, by L.E. McNeese | 31.1 | `c9039cd60049ecf6…` |
 | [`ornl/ORNL-5132.pdf`](ornl/ORNL-5132.pdf) | 1976-08 | Molten-Salt Reactor Program: Semiannual Progress Report for Period Ending February 29, 1976, by L.E. McNeese | 38.9 | `3218d66c08e17c9d…` |
 | [`ornl/ORNL-5176.pdf`](ornl/ORNL-5176.pdf) | 1977-02 | Engineering Tests of the Metal Transfer Process for Extraction of Rare-Earth Fission Products From a Molten-Salt Breeder Reactor Fuel Salt, by H.C. Savage and J.R. Hightower, Jr. | 4.3 | `49e72ad18d1558d9…` |
-| [`ornl/ORNL-MIT-117.pdf`](ornl/ORNL-MIT-117.pdf) | 1970-11-18 | Removal of Tritium from the Molten-Salt Breeder Reactor Fuel, M.D. Shapiro and C.M. Reed | 1.6 | `29e4433a2445909e…` |
 | [`ornl-tm/ORNL-TM-0078.pdf`](ornl-tm/ORNL-TM-0078.pdf) | 1962-10-03 | Thermal-Stress and Strain-Fatigue Analyses of the MSRE Fuel and Coolant Pump Tanks | 2.8 | `37d4ccedf073157a…` |
 | [`ornl-tm/ORNL-TM-0079.pdf`](ornl-tm/ORNL-TM-0079.pdf) | 1962-03-27 | Water Test Development of the Fuel Pump for the MSRE | 2.8 | `8af204dbd25b95b9…` |
 | [`ornl-tm/ORNL-TM-0128.pdf`](ornl-tm/ORNL-TM-0128.pdf) | 1962-02-28 | Development of Freeze Valve for Use in the MSRE | 3.9 | `a226d00d86885cc4…` |
@@ -290,30 +289,11 @@ Titles and dates are as the source page lists them. SHA-256 is of the file as do
 | [`ornl-tm/ORNL-TM-5782.pdf`](ornl-tm/ORNL-TM-5782.pdf) | 1977-04 | The Corrosion of Type 316 Stainless Steel to Li2BeF4 | 4.6 | `550789585f5b6d02…` |
 | [`ornl-tm/ORNL-TM-5783.pdf`](ornl-tm/ORNL-TM-5783.pdf) | 1977-05 | Compatibility Studies of Potential Molten-Salt Breeder Reactor Materials in Molten Fluoride Salts | 2.5 | `8d02e976e1b154f6…` |
 | [`ornl-tm/ORNL-TM-6002.pdf`](ornl-tm/ORNL-TM-6002.pdf) | 1977-10 | Status of Tellurium-Hastelloy-N Studies in Molten-Fluoride Salts | 5.3 | `b4ffaadedf6befd7…` |
-| [`ornl-cf/ORNL-CF-53-9-84.pdf`](ornl-cf/ORNL-CF-53-9-84.pdf) | 1953-08-14 | A Reflector-Moderated, Circulating Fuel Aircraft Reactor | 12.3 | `b28d4380c0e6a450…` |
-| [`ornl-cf/ORNL-CF-56-8-204.pdf`](ornl-cf/ORNL-CF-56-8-204.pdf) | 1956-08 | Fused Salt Fast Breeder | 11.2 | `142b458ef377cff6…` |
-| [`ornl-cf/ORNL-CF-57-4-92.pdf`](ornl-cf/ORNL-CF-57-4-92.pdf) | 1957-04-08 | Maintenance of Various Reactor Types | 2.1 | `13a81426a0e43177…` |
-| [`ornl-cf/ORNL-CF-58-2-46.pdf`](ornl-cf/ORNL-CF-58-2-46.pdf) | 1958-02-05 | A Molten-Salt Natural Convection Reactor System | 2.6 | `509da421c012a53c…` |
-| [`ornl-cf/ORNL-CF-59-12-64.pdf`](ornl-cf/ORNL-CF-59-12-64.pdf) | 1960-01-12 | Molten-Salt Breeder Reactors | 1.8 | `50a00e0f244184ce…` |
-| [`ornl-cf/ORNL-CF-59-2-61.pdf`](ornl-cf/ORNL-CF-59-2-61.pdf) | 1959-04-01 | Processing of Molten Salt Power Reactor Fuel | 1.4 | `ef4a16a634fdde59…` |
-| [`ornl-cf/ORNL-CF-59-8-133.pdf`](ornl-cf/ORNL-CF-59-8-133.pdf) | 1959-08-31 | Molten Salt-Graphite Compatibility Test Results | 1.0 | `fe03f2cab9f47c82…` |
-| [`ornl-cf/ORNL-CF-60-11-108.pdf`](ornl-cf/ORNL-CF-60-11-108.pdf) | 1960-11-30 | MSRE Radiator Design | 1.0 | `5d419c8cafd60590…` |
-| [`ornl-cf/ORNL-CF-60-12-111.pdf`](ornl-cf/ORNL-CF-60-12-111.pdf) | 1960-12-13 | Homogeneous Molten-Salt Reactors | 0.4 | `af6b73bc760afa69…` |
-| [`ornl-cf/ORNL-CF-61-4-62.pdf`](ornl-cf/ORNL-CF-61-4-62.pdf) | 1961-04-19 | MSRE Preliminary Physics Report | 0.5 | `a876402ec52e9c95…` |
-| [`ornl-cf/ORNL-CF-61-8-86.pdf`](ornl-cf/ORNL-CF-61-8-86.pdf) | 1961-08-18 | Thorium Breeder Reactor Evaluation Part I: Fuel Yields and Cost of a MSBR | 10.5 | `254afd051f3f354c…` |
 | [`other-us-gov/ANL-6792.pdf`](other-us-gov/ANL-6792.pdf) | 1963-10 | Molten-Salt Fast Reactors | 0.1 | `755bc10e32fc34c0…` |
 | [`other-us-gov/ANL-7092.pdf`](other-us-gov/ANL-7092.pdf) | 1965-09 | Catalog of Nuclear Reactor Concepts: Part I, Section III | 4.1 | `44eb1d7c159a6dfd…` |
 | [`other-us-gov/LA-1156.pdf`](other-us-gov/LA-1156.pdf) | 1950-09 | Lithium Separation by Electrolysis | 0.9 | `9aa7d8a1655c1fc9…` |
 | [`other-us-gov/MIT-5000.pdf`](other-us-gov/MIT-5000.pdf) | 1952-10-15 | Nuclear Problems of Non-Aqueous Fluid-Fuel Reactors | 12.3 | `2adce221c789175f…` |
 | [`other-us-gov/MIT-5001.pdf`](other-us-gov/MIT-5001.pdf) | 1952-10-15 | Chemical Problems of Non-Aqueous Fluid-Fuel Reactors | 6.4 | `a2b2a4e98e672665…` |
-| [`other-us-gov/NAS-NS-3004.pdf`](other-us-gov/NAS-NS-3004.pdf) | 1960-01 | The Radiochemistry of Thorium | 2.9 | `4893c993016f2894…` |
-| [`other-us-gov/NAS-NS-3013.pdf`](other-us-gov/NAS-NS-3013.pdf) | 1960-05 | The Radiochemistry of Beryllium | 2.4 | `1a72daabe6571811…` |
-| [`other-us-gov/NAS-NS-3016.pdf`](other-us-gov/NAS-NS-3016.pdf) | 1959-12 | The Radiochemistry of Protactinium | 2.5 | `d5209db11166eb80…` |
-| [`other-us-gov/NAS-NS-3025.pdf`](other-us-gov/NAS-NS-3025.pdf) | 1960-10 | The Radiochemistry of the Rare Gases | 3.5 | `ea7d0372c39216e3…` |
-| [`other-us-gov/NAS-NS-3050.pdf`](other-us-gov/NAS-NS-3050.pdf) | 1962-03 | The Radiochemistry of Uranium | 11.5 | `58f8c9151ceb30d4…` |
-| [`other-us-gov/NAS-NS-3058.pdf`](other-us-gov/NAS-NS-3058.pdf) | 1965-09 | The Radiochemistry of Plutonium | 7.5 | `cd774cadf7f555f4…` |
-| [`other-us-gov/ORAU-IEA-77-13.pdf`](other-us-gov/ORAU-IEA-77-13.pdf) | 1977 | MSR Concepts with Reduced Potential for Proliferation of Special Nuclear Materials | 0.2 | `9ff67d5c0d1f5383…` |
-| [`other-us-gov/SL-1954.pdf`](other-us-gov/SL-1954.pdf) | 1962-06 | Sargent and Lundy Capital Cost Evaluation of 1000 MWe MSCR Power Plants | 12.5 | `fbb14724b6d92dbf…` |
 | [`other-us-gov/TID-26156.pdf`](other-us-gov/TID-26156.pdf) | 1972-02 | Ebasco Services 1000 MWe MSBR Conceptual Design Study | 13.6 | `469cd808d1a3ce20…` |
 | [`other-us-gov/TID-8507.pdf`](other-us-gov/TID-8507.pdf) | 1959-02 | Report of the Fluid Fuel Reactors Task Force | 16.8 | `decee3d686009a0a…` |
 | [`other-us-gov/WASH-1097.pdf`](other-us-gov/WASH-1097.pdf) | 1969-06 | The Use of Thorium in Nuclear Power Reactors | 1.9 | `d286626a91ea2516…` |
