@@ -1,0 +1,48 @@
+[workspace]
+resolver = "2"
+members = ["crates/msr-sims"]
+
+[workspace.package]
+edition = "2021"
+license = "AGPL-3.0-only"
+repository = "https://github.com/theodoreOnzGit/molten-salt-reactor-lit-and-sims"
+
+# Every OUTRAM PARK backend crate published on crates.io under the
+# theodoreOnzGit account, checked 2026-10-09. `dover` is left out: the crates.io
+# crate of that name belongs to another author.
+[workspace.dependencies]
+boon-lay = "0.2.0"
+chem-eng-real-time-process-control-simulator = "0.2.2"
+farrer-park = "0.0.1"
+knowledge-oriented-vv-analysis-for-nuclear-sciences-kovan = "0.0.1"
+kovan-codegen = "0.0.2"
+kovan-common = "0.0.2"
+kovan-discovery = "0.0.2"
+kovan-literature = "0.0.1"
+kovan-metrics = "0.0.1"
+kovan-semantics = "0.0.1"
+kovan-web = "0.0.1"
+nee_soon = "0.0.3"
+njoy-outram-park-fork = "0.0.4"
+outram-blender = "0.0.5"
+outram-foam-appbuilder-lib = "0.1.4"
+outram-foam-basic-lib = "0.1.4"
+outram-foam-mesh = "0.1.0"
+outram-foam-multiphase = "0.0.2"
+outram-foam-turbulence-lib = "0.1.2"
+outram-mc-libs = "0.0.5"
+outram-park-digital-twin-engine = "0.0.2"
+outram-park-fork-cfmesh = "0.0.2"
+outram-park-fork-coolprop = "0.1.2"
+outram-park-fork-dwsim-libs = "0.0.3"
+outram-park-fork-liggghts = "0.0.1"
+petir = "0.0.1"
+raffles = "0.0.1"
+tampines = "0.0.2"
+tampines-steam-tables = "0.2.8"
+teh-o-prke = "0.1.6"
+# Pinned: tuas_boussinesq_solver 0.1.7 removed the module
+# `array_control_vol_and_fluid_component_collections`, which tampines 0.0.2
+# imports, so tampines 0.0.2 does not compile against 0.1.7 (checked
+# 2026-10-09). Unpin once a tampines release builds against the latest tuas.
+tuas_boussinesq_solver = "=0.1.6"

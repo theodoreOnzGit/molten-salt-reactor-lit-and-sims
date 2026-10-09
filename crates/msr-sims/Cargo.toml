@@ -1,0 +1,41 @@
+[package]
+name = "msr-sims"
+version = "0.0.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish = false
+description = "Molten salt reactor models built on the OUTRAM PARK crates"
+
+[dependencies]
+boon-lay.workspace = true
+chem-eng-real-time-process-control-simulator.workspace = true
+farrer-park.workspace = true
+knowledge-oriented-vv-analysis-for-nuclear-sciences-kovan.workspace = true
+kovan-codegen.workspace = true
+kovan-common.workspace = true
+kovan-discovery.workspace = true
+kovan-literature.workspace = true
+kovan-metrics.workspace = true
+kovan-semantics.workspace = true
+kovan-web.workspace = true
+nee_soon.workspace = true
+njoy-outram-park-fork.workspace = true
+outram-blender.workspace = true
+outram-foam-appbuilder-lib.workspace = true
+outram-foam-basic-lib.workspace = true
+outram-foam-mesh.workspace = true
+outram-foam-multiphase.workspace = true
+outram-foam-turbulence-lib.workspace = true
+outram-mc-libs.workspace = true
+outram-park-digital-twin-engine.workspace = true
+outram-park-fork-cfmesh.workspace = true
+outram-park-fork-coolprop.workspace = true
+outram-park-fork-dwsim-libs.workspace = true
+outram-park-fork-liggghts.workspace = true
+petir.workspace = true
+raffles.workspace = true
+tampines.workspace = true
+tampines-steam-tables.workspace = true
+teh-o-prke.workspace = true
+tuas_boussinesq_solver.workspace = true
