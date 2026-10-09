@@ -1,0 +1,25 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-16 Reduced Experimental Data for vacuum Using Apparatus II-B (Appendix B; printed page 93, PDF page 101)
+# Specimen: none (evacuated cell, used to evaluate plate emissivity)
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.2940,87.4,21.59,,-0.06,0.954,0.0102,2116,,measured,calibration
+1-B,0.1972,87.5,21.48,,-0.07,0.948,0.0101,2105,,measured,calibration
+1-C,0.1002,87.3,21.69,,-0.06,0.954,0.0101,2068,,measured,calibration
+1-D,0.0488,87.4,21.66,,-0.04,0.967,0.0103,2124,,measured,calibration
+2-A,0.0490,513.7,25.34,,-0.22,0.894,0.0906,279.7,,measured,calibration
+2-B,0.0986,513.8,25.59,,-0.22,0.894,0.0906,282.4,,measured,calibration
+2-C,0.2000,513.8,25.58,,-0.21,0.894,0.0906,282.4,,measured,calibration
+2-D,0.3000,513.7,25.68,,-0.22,0.894,0.0906,283.4,,measured,calibration
+3-A,0.0500,859.4,69.25,,0.33,90.00,0.443,156.4,,measured,calibration
+3-B,0.1500,859.5,69.73,,0.33,90.00,0.443,157.4,,measured,calibration
+3-C,0.1000,859.0,40.36,,-0.02,98.90,0.173,233.3,,measured,calibration
+3-D,0.2000,859.0,40.73,,-0.02,98.90,0.173,235.4,,measured,calibration
+# note: Shunting factor F printed as 90.00 (runs 3-A, 3-B) and 98.90 (runs 3-C, 3-D), unlike every other table (F near 1). Transcribed as printed; probable misprints for 0.9000 and 0.9890 but NOT corrected.
+# note: Report says vacuum runs are reduced differently: plate-to-plate drop = total drop minus estimated wall drops; resistances normalized to a mean temperature (printed page 55).
+# note: internal consistency check (delta_T / heat flux vs printed resistance) differs by more than 1% for run 1-C (printed 2068, computed 2148); transcribed as printed, not corrected.

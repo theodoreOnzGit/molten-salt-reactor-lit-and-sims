@@ -1,0 +1,12 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised/transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3229, "Fluid Dynamic Studies of the Molten-Salt Reactor Experiment (MSRE) Core" (R. J. Kedl, 19 Nov 1970; preliminary-nature notice on cover).
+# Page (report numbering): 16; Fig. 9 (ORNL-DWG 64-6722A1). Quantity: static pressure (ft of fluid) at five wall pressure taps along the lower vessel head relative to the tap at the vessel centre line, 1200 gpm.
+# Method: figure digitisation: page rendered at 200 dpi, deskewed, marker centres located by image processing (morphological opening / enclosed-ring detection), axes calibrated by least-squares fit to printed gridlines (gridline fit residuals shown below). Only the dot ordinates are digitised; the horizontal positions of the taps are on an unscaled schematic of the head and are NOT quantified. Tap index 1 = nearest the annulus/wall, 5 = at the vessel centre line (pressure reference = 0).
+# Test conditions: full-scale MSRE core/vessel mockup (carbon steel vessel and loop, aluminium core blocks, model tolerances normally doubled vs reactor; control rods and specimen holder NOT modelled), water at 75-80 F in the loop (Re about 4x reactor) unless stated; flow 1200 gpm = reactor design fuel flow (5 in. inlet pipe). Report text: pressure is slightly higher at the centre, consistent with measured slightly higher moderator flow near the centre. Axis label "pressure (ft-fluid) when pressure at vessel centre line = 0".
+# Stated uncertainty: none given in report. Digitisation reading uncertainty: about +-0.005 ft-fluid (1 px = 0.0012 ft; y-ticks at 0.1 ft intervals).
+tap_index_from_wall,pressure_relative_to_centre_tap_ft_fluid
+1,0.290
+2,-0.124
+3,-0.036
+4,0.048
+5,0.001

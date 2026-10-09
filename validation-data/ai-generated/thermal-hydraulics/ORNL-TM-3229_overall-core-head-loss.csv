@@ -1,0 +1,18 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised/transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3229, "Fluid Dynamic Studies of the Molten-Salt Reactor Experiment (MSRE) Core" (R. J. Kedl, 19 Nov 1970; preliminary-nature notice on cover).
+# Page (report numbering): 28 (text on p.26); Fig. 15 (ORNL-DWG 64-6720A1). Quantity: overall fluid frictional head loss across the MSRE core from the 5 in. inlet pipe to the 5 in. outlet pipe vs flow rate.
+# Method: figure digitisation: page rendered at 200 dpi, deskewed, marker centres located by image processing (morphological opening / enclosed-ring detection), axes calibrated by least-squares fit to printed gridlines (gridline fit residuals shown below). Axes logarithmic in the original; values here are linear numbers. Two overlapping points at ~400 gpm. Printed slope-2.0 line not digitised.
+# Test conditions: full-scale MSRE core/vessel mockup (carbon steel vessel and loop, aluminium core blocks, model tolerances normally doubled vs reactor; control rods and specimen holder NOT modelled), water at 75-80 F in the loop (Re about 4x reactor) unless stated; flow 1200 gpm = reactor design fuel flow (5 in. inlet pipe). Water loop. Report states the curve has slope 2.0 so head loss is primarily form drag. Report p.26.
+# Stated uncertainty: none given in report. Digitisation reading uncertainty: about +-2% of value (log-axis gridline-fit residuals <= 3.2 px in x, <= 1.5 px in y). Flow values probably nominal 300-1200 gpm.
+flow_gpm,overall_head_loss_ft_fluid
+297.0,1.0
+396.3,1.625
+397.3,1.729
+493.2,2.626
+592.6,3.938
+694.7,5.264
+791.1,7.036
+884.6,8.813
+989.9,10.861
+1083.2,13.064
+1158.6,14.411

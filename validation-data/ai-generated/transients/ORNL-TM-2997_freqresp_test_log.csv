@@ -1,0 +1,18 @@
+# Source: ORNL-TM-2997, Experimental Dynamic Analysis of the MSRE with 233U Fuel (R.C. Steffy Jr., April 1970)
+# Page: PDF p.22 (printed p.22); Table 1 "Information Related to Frequency-Response Testing of 233U-Fueled MSRE"
+# Method: table transcription, checked against page image
+# Units: integrated power MW-hr; power level as stated (W, kW or MW); number of tests
+# Stated measurement uncertainty: none (test log). Report text says 28 tests of ~1 hr each in total (column sums to 28).
+# Operating condition: 233U fuel; 5/26/69 tests were run for M.R. Buckner and T.W. Kerlin (Univ. of Tennessee)
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+test_date,integrated_power_MWhr,power_level_value,power_level_unit,power_level_W,n_tests
+1968-10-15,0,100,W,100,1
+1968-11-07/08,0,50,W,50,6
+1969-01-16,86,1,MW,1e6,3
+1969-01-20,435,5,MW,5e6,1
+1969-02-03,2390,8,MW,8e6,1
+1969-02-17,4080,5,MW,5e6,1
+1969-02-20,4490,8,MW,8e6,3
+1969-03-11,7220,10,kW,1e4,1
+1969-04-24,14000,8,MW,8e6,2
+1969-05-26,19500,8,MW,8e6,9

@@ -1,0 +1,16 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3963, Table 2 "Changes in Theoretical Calculation of 233U Critical Loading", printed p.22 (PDF p.30)
+# Method: table transcription (image-checked)
+# Quantity: CALCULATED corrections applied to the 1967 prediction of the 233U critical loading. NOT measured data. Included only because it documents the physics inputs (burnup of 10B/6Li, 235U heel, 239Pu, Sm).
+# Units: reactivity effect % dk/k; uranium equivalent % dU/U (uranium of isotopic composition of enriching salt, 91 % 233U). 72,440 MWhr exposure.
+# Stated uncertainty: none stated. Footnotes: 239Pu assumes no removal during chemical processing; net change positive because dilution by the drain-tank salt heel was not accounted for in the original calculations.
+correction,reactivity_effect_pct_dk_per_k,uranium_equivalent_pct_dU_per_U
+239Pu,+0.095,-0.243
+10B,+0.379,-0.973
+149Sm + 151Sm,+0.061,-0.156
+6Li,+0.217,-0.558
+Uranium heel 235U,+0.554,-1.424
+Uranium heel 238U,-0.147,+0.376
+Depleted uranium addition,-0.102,+0.262
+Cross-section changes,+0.212,-0.545
+Net,+1.269,-3.261

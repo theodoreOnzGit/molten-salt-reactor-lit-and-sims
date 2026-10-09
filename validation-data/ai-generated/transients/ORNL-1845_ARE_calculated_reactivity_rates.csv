@@ -1,0 +1,17 @@
+# Source: ORNL-1845, Operation of the Aircraft Reactor Experiment
+# Page: PDF p.97 (printed p.87); Table 6.6 "Calculated Rates of Increase of delta-k/k in ARE from Various Operations"
+# Method: table transcription, checked against page image
+# Units: (percent delta-k/k) per second
+# Stated uncertainty: none. NOTE these are CALCULATED rates (report text: "lists calculated rates"), not direct measurements.
+# Operating condition: ARE high-power operation
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+operation,range,rate_pct_dk_over_k_per_s
+fuel system helium blower speed increase,0 to 1500 rpm,0.0035
+fuel system helium blower speed increase,1000 to 1500 rpm,0.0011
+regulating rod movement,whole rod insertion or withdrawal,0.011
+shim rod movement single rod,at 4 in. insertion,0.0039
+shim rod movement single rod,at 8 in. insertion,0.0067
+shim rod movement group operation,at 4 in. insertion,0.012
+shim rod movement group operation,at 8 in. insertion,0.019
+fuel flow rate,0 to 46 gpm,0.013
+sodium flow rate,0 to 150 gpm,1e-6

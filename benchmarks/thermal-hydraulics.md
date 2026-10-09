@@ -15,7 +15,7 @@ Tracking issue: #11
 | TH-3 (#14) | MSRE power from heat balances; primary heat exchanger and radiator performance | ORNL-TM-3002 | as TH-1 |
 | TH-4 (#15) | MSRE core flow distribution (water-model fluid dynamics) | ORNL-TM-3229 | as TH-1 |
 | TH-5 (#16) | MSRE fuel and coolant pump head/flow characteristics | ORNL-TM-0079, ORNL-TM-2987 | as TH-1 |
-| TH-6 (#17) | Salt thermophysical properties (density, viscosity, conductivity, heat capacity) | ORNL-TM-2316, ORNL-4831 | Being transcribed into `validation-data/ai-generated/salt-properties/` |
+| TH-6 (#17) | Salt thermophysical properties (density, viscosity, conductivity, heat capacity) | ORNL-TM-2316. ~~ORNL-4831~~ **CORRECTED 2026-10-09:** ORNL-4831 holds no fluoride-salt data. It says those results "will be reported in a later publication" and gives only calibration fluids (H₂O, Hg, HTS, He, Ar), which verify the instrument. The later report still needs finding | Transcribed into `validation-data/ai-generated/salt-properties/` and audited (`AUDIT-2026-10-09.md`) |
 
 TH-6 is an **input**, not a benchmark result. Property correlations must come
 from the literature with their stated uncertainty, and never be adjusted to

@@ -1,0 +1,62 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised/transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3229, "Fluid Dynamic Studies of the Molten-Salt Reactor Experiment (MSRE) Core" (R. J. Kedl, 19 Nov 1970; preliminary-nature notice on cover).
+# Page (report numbering): 11; Fig. 6 (ORNL-DWG 64-6721A1). Quantity: fluid velocity at the centre line of the volute vs angle from inlet tangent, at 300/600/1200 gpm.
+# Method: figure digitisation: page rendered at 200 dpi, deskewed, marker centres located by image processing (morphological opening / enclosed-ring detection), axes calibrated by least-squares fit to printed gridlines (gridline fit residuals shown below). Series assigned to flow rates by curve continuity (nearest-neighbour tracking) and checked against the labelled curves.
+# Test conditions: full-scale MSRE core/vessel mockup (carbon steel vessel and loop, aluminium core blocks, model tolerances normally doubled vs reactor; control rods and specimen holder NOT modelled), water at 75-80 F in the loop (Re about 4x reactor) unless stated; flow 1200 gpm = reactor design fuel flow (5 in. inlet pipe). Report text: at 1200 gpm water approaches through the 5 in. pipe at mean velocity 19.2 ft/s; jumps to ~23 ft/s inside the volute; ~10 ft/s at the tail end (digitised 19.22, 22.6, 10.4-10.5: not used for calibration). Report warns centreline velocities cannot be taken as absolute flow rates, particularly at the inlet. The marker at the left edge (squares) is the mean inlet pipe velocity and has no meaningful angle.
+# Stated uncertainty: none given in report. Digitisation reading uncertainty: about +-0.1 ft/s and +-1 deg (gridline-fit residuals <= 1.4 px in x, <= 1.1 px in y; 1 px = 0.37 deg, 0.032 ft/s). Some dots overlap the printed dashed/solid lines; a dot hidden by a line could be missed (counts: 21, 20, 11 centerline points + 3 inlet squares).
+flow_gpm,point_type,angle_from_inlet_tangent_deg,fluid_velocity_at_volute_centreline_ft_per_s
+1200,mean_inlet_pipe_velocity,,19.22
+1200,volute_centreline,5.6,22.63
+1200,volute_centreline,17.2,21.94
+1200,volute_centreline,28.4,21.65
+1200,volute_centreline,42.1,20.78
+1200,volute_centreline,54.4,20.49
+1200,volute_centreline,65.7,20.08
+1200,volute_centreline,79.1,19.51
+1200,volute_centreline,90.6,18.66
+1200,volute_centreline,102.2,17.94
+1200,volute_centreline,138.5,16.39
+1200,volute_centreline,151.6,16.1
+1200,volute_centreline,163.7,15.11
+1200,volute_centreline,185.7,14.22
+1200,volute_centreline,197.5,13.79
+1200,volute_centreline,208.7,13.43
+1200,volute_centreline,221.9,12.75
+1200,volute_centreline,258.0,11.34
+1200,volute_centreline,270.2,10.95
+1200,volute_centreline,282.0,10.45
+1200,volute_centreline,295.4,10.42
+1200,volute_centreline,306.2,10.5
+600,mean_inlet_pipe_velocity,,9.61
+600,volute_centreline,5.3,11.22
+600,volute_centreline,16.0,10.86
+600,volute_centreline,28.2,10.65
+600,volute_centreline,41.1,9.93
+600,volute_centreline,53.4,9.81
+600,volute_centreline,64.8,9.65
+600,volute_centreline,76.6,9.58
+600,volute_centreline,89.6,9.24
+600,volute_centreline,101.4,8.87
+600,volute_centreline,150.8,7.77
+600,volute_centreline,162.7,7.29
+600,volute_centreline,173.1,7.2
+600,volute_centreline,185.3,6.62
+600,volute_centreline,208.6,6.45
+600,volute_centreline,221.4,6.09
+600,volute_centreline,257.8,5.64
+600,volute_centreline,269.9,5.53
+600,volute_centreline,281.4,5.12
+600,volute_centreline,294.3,4.94
+600,volute_centreline,305.7,4.87
+300,mean_inlet_pipe_velocity,,4.82
+300,volute_centreline,16.7,4.56
+300,volute_centreline,41.3,4.3
+300,volute_centreline,63.9,4.1
+300,volute_centreline,89.9,3.92
+300,volute_centreline,137.0,3.28
+300,volute_centreline,163.3,2.93
+300,volute_centreline,185.3,2.69
+300,volute_centreline,208.1,2.7
+300,volute_centreline,257.5,2.35
+300,volute_centreline,281.2,2.22
+300,volute_centreline,305.8,1.91

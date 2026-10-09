@@ -1,0 +1,24 @@
+# Source: ORNL-1845, Operation of the Aircraft Reactor Experiment
+# Page: PDF p.65 (printed p.55); Table 5.7 "Effect of Fuel Flow Rate on Reactivity (Exp. L-7)"; related Fig. 5.11
+# Method: table transcription, checked against page image
+# Units: fuel flow gpm; sodium flow gpm; regulating-rod movement in.; reactivity change delta-k/k in percent (as printed)
+# Stated measurement uncertainty: none stated
+# Operating condition: ARE zero/low power, fuel flow varied (flow 0 = pump stopped); rod movement compensates the reactivity change. Runs 8 and 10 repeat flow 0; runs 7 and 9 repeat 13.5 gpm.
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+run,fuel_flow_gpm,sodium_flow_gpm,regulating_rod_movement_in,reactivity_change_dk_over_k_percent
+1,45.5,149,0,0
+2,41,149,0.7,0.0231
+3,35,149,1.4,0.0462
+4,28.5,149,1.9,0.0627
+5,23.8,149,2.4,0.0792
+6,18,149,3.0,0.099
+7,13.5,149,3.45,0.114
+8,0,149,12.05,0.398
+9,13.5,149,3.45,0.114
+10,0,149,12.05,0.398
+11,13.5,149,3.65,0.120
+12,13.5,149,3.65,0.120
+13,43.5,149,0.9,0.0297
+14,41,149,0.96,0.0317
+15,41,0,1.12,0.0370
+16,41,149,0.96,0.0317

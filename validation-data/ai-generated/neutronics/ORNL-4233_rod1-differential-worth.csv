@@ -1,0 +1,22 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233, Fig. 5 "Differential Worth of Control Rod No. 1, Measured with Fuel Stationary", printed p.17 (PDF p.27)
+# Method: FIGURE DIGITISATION by eye from a 200-dpi render. Values are the authors' smooth FITTED CURVE (not the scatter of individual period measurements), read at 4 in. gridlines. Normalized to the initial critical 235U loading.
+# Quantity: differential worth of regulating rod 1 versus position (in. withdrawn), fuel stationary (period measurements).
+# Units: position in.; differential worth % dk/k per in.
+# Reading uncertainty: +/-0.002 % dk/k/in (about 1/5 of a 0.01 gridline), +/-0.1 in. Report text (p.16): rms scatter of the data points about the curve ~2.8e-4 % dk/k/in; maximum single-point deviation 8.7 %; rod position precision +/-0.01 in. The report text layer gives the rms as 4.7 % of the mean while the page image reads ~0.7 %; not resolved here.
+# Note: the curve ends abruptly at ~51.5 in. (drops to zero at the end of rod travel); 51.5 in. value 0.0135 is the last curve value before the drop. The curve at 0 in. starts at ~0.018.
+rod_position_in_withdrawn,differential_worth_fitted_curve_pct_dk_per_k_per_in
+0,0.018
+4,0.030
+8,0.041
+12,0.052
+16,0.0575
+20,0.0615
+24,0.062
+28,0.060
+32,0.0535
+36,0.047
+40,0.037
+44,0.0265
+48,0.019
+51.5,0.0135

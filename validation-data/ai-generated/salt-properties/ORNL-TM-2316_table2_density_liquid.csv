@@ -1,0 +1,18 @@
+# ORNL-TM-2316: Physical Properties of Molten-Salt Reactor Fuel, Coolant, and Flush Salts (1968)
+# Table: Density of Liquid, rho = a - b*t (unnumbered in the report; printed page 28, PDF page 34)
+# Author of section: S. Cantor
+# Salt compositions in mol %: from the report's composition table (printed page 2, also page 3-5 text). C1/C2 are NaBF4-NaF, not LiF-BeF2.
+# Method: table transcription
+# Units: g/cm^3; t in degC
+# basis column: estimated = value or equation estimated/derived by the report's authors; measured = reported as measured; preliminary_measurement = report says preliminary
+# AI-generated, not human-reviewed (Claude Haiku transcription; audited by Claude Sonnet 2026-10-09, see ../AUDIT-2026-10-09.md)
+salt,composition_LiF_mol_percent,composition_BeF2_mol_percent,composition_ThF4_mol_percent,composition_UF4_mol_percent,composition_NaBF4_mol_percent,composition_NaF_mol_percent,coefficient_a_g_cm3,coefficient_b_g_cm3_per_degC,uncertainty_percent,basis
+F1,73,16,10.7,0.3,,,3.628,6.6e-04,3,estimated
+F2,72,21,6.7,0.3,,,3.153,5.8e-04,3,estimated
+F3,68,20,11.7,0.3,,,3.687,6.5e-04,3,estimated
+F4,63,25,11.7,0.3,,,3.644,6.3e-04,3,estimated
+L2B,66,34,,,,,2.214,4.2e-04,2,estimated
+C1,,,,,92,8,2.27,7.4e-04,5,preliminary_measurement
+C2,,,,,100,0,2.26,7.4e-04,5,estimated
+# note: Temperature validity range is not stated in the table.
+# note: F1-F4: additivity of molar volumes. L2B: equation derived from additive molar volumes, approximately the average of two experimental sets (refs 5, 6). C1: preliminary pyknometric measurements. C2: calculated from the C1 molar volume by subtracting the NaF contribution.

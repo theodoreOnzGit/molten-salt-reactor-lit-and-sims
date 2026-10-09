@@ -1,0 +1,19 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-2987, "Development of Fuel- and Coolant-Salt Centrifugal Pumps for the Molten-Salt Reactor Experiment" (P. G. Smith, Oct 1970). Page 13 (report numbering; PDF page 17), Fig. 6 (ORNL-DWG 65-6666) "Hydraulic Performance of Prototype Fuel-Salt Pump with Water and with Molten Salt".
+# Quantity: pump head (ft of fluid) vs total flow (gpm) for the prototype MSRE fuel-salt pump, 13-in. OD impeller (Allis-Chalmers 8x6 Type E, P482), MOLTEN SALT data points at 1200 F (figure legend; the OCR/caption text reads '420OF' but the figure image reads 1200 F) at three speeds. The printed ORNL water-performance curves (lines) are NOT digitised.
+# Method: figure digitisation (200 dpi render, deskewed, filled-marker centroids by morphological opening, axes calibrated by least squares on printed gridlines; residuals <= 2 px). Speed assigned from the labelled curve group (700/860/1030 rpm) by head level.
+# Reading uncertainty: about +-8 gpm and +-0.15 ft. No measurement uncertainty stated in report. Report text (p.14): at 1030 rpm the molten-salt head varies by up to 1.5 ft from that of water; at 860 and 700 rpm the molten-salt head is low by about 1 ft.
+# Test conditions: molten-salt pump test stand, fuel-salt pump tank and volute installed (report text p.12-13).
+speed_rpm,flow_gpm,head_ft
+700,747,26.8
+700,852,26.8
+700,892,24.5
+700,992,23.9
+860,911,39.5
+860,1011,39.5
+860,1145,37.1
+860,1251,36.3
+1030,1105,55.3
+1030,1267,57.5
+1030,1365,53.3
+1030,1591,50.0

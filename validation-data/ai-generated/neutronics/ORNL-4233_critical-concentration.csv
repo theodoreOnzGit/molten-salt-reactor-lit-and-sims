@@ -1,0 +1,12 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233, "Zero-Power Physics Experiments on the MSRE" (235U), Table 1, printed p.11 (PDF p.21)
+# Method: table transcription (checked against page image)
+# Quantity: critical 235U concentration, initial criticality of the MSRE (first criticality 1963-06-01, 69.6 kg 235U loading per text p.9)
+# Conditions: 1181 F, fuel pump off, 0.08 % dk/k rod poisoning (Table 1 subtitle). Predicted row is CALCULATED (reference 1200 F, all rods at 51 in = 32.87 g/L, corrected by the report to actual conditions).
+# Units: 235U mass fraction wt %; fuel density lb/ft3 (SI: x16.0185 = kg/m3); concentration g/L
+# Stated uncertainty: as given in the +/- columns (mass fraction +/-0.007 wt %, density +/-1 lb/ft3, concentration +/-0.3 g/L); predicted row has none stated
+# Text context (p.10): corrected book fraction includes dilution by 20 +/- 10 kg flush salt; analytical fraction = 0.985 x book value.
+row,basis,u235_mass_fraction_wt_pct,u235_mass_fraction_unc_wt_pct,fuel_density_lb_per_ft3,fuel_density_unc_lb_per_ft3,u235_concentration_g_per_L,u235_concentration_unc_g_per_L
+Predicted,calculated,,,,,32.77,
+Corrected book,measured (inventory),1.408,0.007,145,1,32.8,0.3
+Analytical,measured (chemical analysis),1.393,0.007,145,1,32.4,0.3

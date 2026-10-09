@@ -1,0 +1,19 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised/transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3229, "Fluid Dynamic Studies of the Molten-Salt Reactor Experiment (MSRE) Core" (R. J. Kedl, 19 Nov 1970; preliminary-nature notice on cover).
+# Page (report numbering): 30; Fig. 16 "Summary of Solids Addition Data" (printed as a table). Quantity: fraction of added iron filings recovered from the reactor-vessel lower head after passing once through the 1200 gpm core model.
+# Method: table transcription, checked against page image.
+# Test conditions: full-scale MSRE core/vessel mockup (carbon steel vessel and loop, aluminium core blocks, model tolerances normally doubled vs reactor; control rods and specimen holder NOT modelled), water at 75-80 F in the loop (Re about 4x reactor) unless stated; flow 1200 gpm = reactor design fuel flow (5 in. inlet pipe). Iron filings of nominal mesh size added to water at the core inlet while pump running; added over the stated interval; pump then stopped immediately or run on for the stated hours; loop drained and solids in the lower head recovered. * thickening agent added to water for Reynolds-number simulation; the viscosity printed is "9 1/2" lb/ft-hr (transcribed as 9.5). Particle diameter 200-300 microns judged critical (report text). First row recovery printed as "~0%" (OCR/print: tilde-zero), kept as text.
+# Stated uncertainty: none given in report. Digitisation reading uncertainty: n/a (transcription).
+nominal_mesh_size_of_iron_filings,screen_aperture_microns,loop_liquid_viscosity_lb_per_ft_hr,time_interval_to_add_solids_min,pump_run_time_after_solids_added_hr,loop_flow_rate_gpm,weight_solids_added_lb,percent_of_added_solids_recovered_from_vessel_lower_head
+100,147,2.0,120,0,1180,3,~0
+40,370,2.0,120,0,1180,3,45
+20,833,2.0,120,0,1180,3,55
+150,104,2.0,35,0,1180,3,9
+150,104,2.0,32,8,1180,3,0
+60,248,2.0,20,0,1180,3,61
+60,248,2.0,20,8,1180,3,55
+150,104,2.0,20,0,1180,3,5.6
+50-30,290-490,9.5*,20,0,1180,2,56
+50-30,290-490,9.5*,20,8,1180,2,44
+50-100,290-147,9.5*,20,0,1180,2,30
+50-100,290-147,9.5*,20,7,1180,2,0

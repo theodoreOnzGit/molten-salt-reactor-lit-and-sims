@@ -1,0 +1,18 @@
+# ORNL-TM-1017: Tensile and Creep Properties of INOR-8 for the MSRE
+# Source: J. T. Venard, February 1965, Oak Ridge National Laboratory
+# Page: printed 5 (PDF page 9)
+# Table: 2
+# Title: Average Tensile Properties for INOR-8, Heats 5075 and 5081
+# Units: Temperature in °C and °F; strength in psi; elongation and area reduction in percent
+# Test conditions: Two specimens per heat at each temperature
+# Method: Table transcription
+# Note: AI-generated, not human-reviewed
+Temperature (°C),Temperature (°F),Ultimate Tensile Strength (psi),0.2% Offset Yield Strength (psi),Elongation Heat 5075 (%),Elongation Heat 5081 (%),Reduction of Area Heat 5075 (%),Reduction of Area Heat 5081 (%)
+21,70,113600,46500,53.1,53.1,54.0,54.0
+315,600,103300,36000,55.0,55.0,50.0,50.0
+427,800,100100,35000,53.3,53.3,52.5,52.5
+538,1000,96000,33200,53.3,53.3,46.5,52.0
+649,1200,74800,32600,22.0,35.8,27.9,35.8
+760,1400,61800,31800,21.0,30.5,22.8,29.8
+871,1600,36400,31600,23.0,39.8,24.6,43.2
+982,1800,20300,20000,27.9,27.9,28.9,28.9

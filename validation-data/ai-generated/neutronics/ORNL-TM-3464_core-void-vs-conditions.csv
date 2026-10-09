@@ -1,0 +1,17 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3464, Table 1 "Effect of Operating Conditions on Core Void Fraction in MSRE with 235U Fuel", printed p.11 (PDF p.17). Image-checked.
+# Method: table transcription
+# Quantity: change in core void fraction inferred from reactivity effect at zero power, relative to the minimum (0) at 1225 F outlet temperature for each overpressure.
+# Conditions: helium cover gas; 1189 rpm fuel pump speed.
+# Units: overpressure psig; temperature F; level in.; void change vol %
+# Stated uncertainty: none stated
+fuel_pump_overpressure_psig,reactor_outlet_temperature_F,fuel_pump_level_min_in,fuel_pump_level_max_in,change_from_min_core_void_fraction_vol_pct
+5,1225,5.6,6.2,0
+5,1210,5.3,6.1,0.03
+5,1180,5.3,5.7,0.11
+9,1225,5.6,6.2,0
+9,1210,5.3,6.0,0.04
+9,1195,5.3,5.9,0.10
+9,1180,5.3,5.6,0.18
+3,1225,5.6,6.2,0
+3,1180,5.3,5.8,0.10

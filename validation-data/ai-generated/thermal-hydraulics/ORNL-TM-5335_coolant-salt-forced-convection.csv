@@ -1,0 +1,30 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL/TM-5335, "Heat Transfer Measurements in a Forced Convection Loop with Two Molten-Fluoride Salts: LiF-BeF2-ThF4-UF4 and Eutectic NaBF4-NaF" (M. D. Silverman, W. R. Huntley, H. E. Robertson; Oct 1976). Title page misprints ThF2; the errata sheet says ThF4.
+# Page (report numbering): 19; Table 7. Method: table transcription, checked against page images.
+# Salt: NaBF4-NaF eutectic (92-8 mole %), proposed MSBR coolant salt
+# Geometry: loop MSR-FCL-2b, Hastelloy N tube 12.7 mm (0.5 in.) OD, 1.09 mm wall, ID 10.49 mm (0.413 in.) at room temp; heat-transfer test section No. 2 actively heated length 3.5 m (11.5 ft), L/D = 331, heat transfer area 0.115 m2 (1.08 ft2); direct resistance heating via 4-lug system with unheated gap at centre lugs (max L/D used for local data = 167). Wall T from 12 sheathed Chromel-Alumel TCs (1.02 mm OD) at ~0.30 m spacing; bulk inlet/outlet T from 3 TCs in wells at each end; bulk T assumed linear between inlet and outlet.
+# Each run has TWO rows: station_m = 1.3 and 1.6 (4.25 ft and 5.25 ft thermocouple locations, per table footnote a). The footnote says 'the two sets of values ... correspond to the 1.3- and 1.6-m locations'; AI assigned first-listed = 1.3 m, second = 1.6 m by that order (not stated more explicitly). Run-level columns (heat input, inlet/outlet T, mass flow, Q/A) repeat on both rows.
+# Units as printed (US customary): kW, F, lb/hr, h in Btu/hr-ft2-F; flux column: printed directly in Btu/hr-ft2. SI per report footnote: lb/hr x 1.26e-4 = kg/s; Btu/hr-ft2 x 3.152 = W/m2; Btu/hr-ft2-F x 5.674 = W/m2-K (SI columns not added).
+# 9 runs transcribed (run numbers 1-7, 9, 12). Table 1 ranges: Re 5100-45,000; Pr 5.3-5.64; fluid T 450-610 C; heat flux 43,000-158,000 Btu/hr-ft2.
+# Stated uncertainty: data acquisition (Dextir) accuracy +-0.10% of full scale, resolution 1 part in 10,000; sheathed TCs read 0.3-3.9 C from bare-wire TCs (p.12). Property uncertainties per Tables 2/3 (p.13): viscosity +-10%, k +-15% (fuel-salt k estimated from analogous salts), cp +-4% (fuel) / +-2% (coolant), density +-1%. No overall uncertainty on h or Nu is stated.
+# Nu_HT = Nu*Pr^(-1/3)*(mu_B/mu_S)^(-0.14) (table footnote). Re, Pr, Nu use the authors' property correlations (property values not extracted here). Velocity was NOT measured: estimated from q/(cp*dT*A) (p.15), so Re is derived from heat balance.
+# AI consistency check: h/Nu is constant per salt (fuel ~20.45 = k/D; coolant ~6.97) so h and Nu columns agree.
+run,station_m,heat_input_kW,T_inlet_F,T_outlet_F,mass_flow_lb_per_hr,q_over_A_Btu_hr_ft2,h_exp_Btu_hr_ft2_F,Re,Pr,Nu,Nu_HT
+1,1.3,46.8,934,1039,4226,128459,1722,44455,5.28,247,139
+1,1.6,46.8,934,1039,4226,128459,1782,44965,5.22,255,145
+2,1.3,57.0,896,1024,4222,156456,1598,41582,5.64,229,125
+2,1.6,57.0,896,1024,4222,156456,1647,42486,5.52,236,130
+3,1.3,57.7,881,1042,3398,158378,1376,33463,5.64,197,107
+3,1.6,57.7,881,1042,3398,158378,1402,34191,5.52,201,110
+4,1.3,56.8,872,1101,2351,155908,1052,23852,5.48,151,83
+4,1.6,56.8,872,1101,2351,155908,1068,24663,5.3,153,85
+5,1.3,15.7,842,1134,510,43094,244,5104,5.55,35,19
+5,1.6,15.7,842,1134,510,43094,257,5350,5.3,37,20
+6,1.3,30.2,844,1134,987,82894,460,9878,5.55,66,36
+6,1.6,30.2,844,1134,987,82894,474,10354,5.3,68,37
+7,1.3,39.9,858,1110,1501,109520,696,15023,5.55,100,54
+7,1.6,39.9,858,1110,1501,109520,716,15746,5.3,103,57
+9,1.3,50.7,916,1070,3121,139164,1347,32648,5.31,193,108
+9,1.6,50.7,916,1070,3121,139164,1392,33598,5.16,200,113
+12,1.3,27.6,977,1061,3115,75758,1377,34956,4.95,197,114
+12,1.6,27.6,977,1061,3115,75758,1403,35384,4.89,201,117

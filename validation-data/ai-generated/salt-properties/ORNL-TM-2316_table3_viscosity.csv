@@ -1,0 +1,18 @@
+# ORNL-TM-2316: Physical Properties of Molten-Salt Reactor Fuel, Coolant, and Flush Salts (1968)
+# Table: Viscosity-Temperature Equation, eta = A*exp(B/T) (unnumbered in the report; printed page 8, PDF page 14)
+# Author of section: S. Cantor
+# Salt compositions in mol %: from the report's composition table (printed page 2, also page 3-5 text). C1/C2 are NaBF4-NaF, not LiF-BeF2.
+# Method: table transcription
+# Units: eta in centipoise; T in K
+# basis column: estimated = value or equation estimated/derived by the report's authors; measured = reported as measured; preliminary_measurement = report says preliminary
+# AI-generated, not human-reviewed (Claude Haiku transcription; audited by Claude Sonnet 2026-10-09, see ../AUDIT-2026-10-09.md)
+salt,composition_LiF_mol_percent,composition_BeF2_mol_percent,composition_ThF4_mol_percent,composition_UF4_mol_percent,composition_NaBF4_mol_percent,composition_NaF_mol_percent,coefficient_A_cP,coefficient_B_K,uncertainty_percent,basis
+F1,73,16,10.7,0.3,,,0.084,4340,25,estimated
+F2,72,21,6.7,0.3,,,0.072,4370,25,estimated
+F3,68,20,11.7,0.3,,,0.077,4430,25,estimated
+F4,63,25,11.7,0.3,,,0.0444,5030,25,estimated
+L2B,66,34,,,,,0.116,3755,15,measured
+C1,,,,,92,8,0.04,3000,50,estimated
+C2,,,,,100,0,0.04,3000,50,estimated
+# note: C1 and C2 share one printed equation (brace in the table); the NaF contribution in C1 is called negligible. Derived from preliminary NaBF4 measurements plus the assumption that NaBF4 has the temperature variation of NaI, hence basis = estimated.
+# note: F1-F4 estimated empirically from LiF-BeF2-UF4 viscosities and LiF-BeF2-ThF4 (71-16-13) measurements, assuming ThF4 acts as UF4 does. L2B: report says Measured.

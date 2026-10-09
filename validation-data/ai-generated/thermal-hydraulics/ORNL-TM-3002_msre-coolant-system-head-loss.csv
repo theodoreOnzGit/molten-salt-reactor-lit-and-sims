@@ -1,0 +1,12 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3002, "Reactor Power Measurement and Heat Transfer Performance in the Molten Salt Reactor Experiment" (C. H. Gabbard, 1970).
+# Page (report numbering): 10, Table II "Calculated Head Loss of MSRE Coolant Systems Components at 850 gpm". Method: table transcription, checked against page image.
+# NOTE: these are CALCULATED (not measured) head losses, tabulated here as a model-comparison target, not experimental data. Units: ft of salt. Report text (p.9): with +-15% viscosity uncertainty total ranged 94 to 99 ft vs original design value 78 ft; venturi-indicated flow 850 gpm vs minimum predicted ~800 gpm using the coolant pump water-test data with 5% lower flow in MSRE.
+# Arithmetic check by AI: 13.8+13.8+11.8+28.0+29.0 = 96.4 (matches printed total).
+component,head_loss_ft_of_salt
+line_200,13.8
+line_201,13.8
+line_202,11.8
+heat_exchanger,28.0
+radiator,29.0
+total,96.4

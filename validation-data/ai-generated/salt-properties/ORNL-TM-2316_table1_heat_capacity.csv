@@ -1,0 +1,28 @@
+# ORNL-TM-2316: Physical Properties of Molten-Salt Reactor Fuel, Coolant, and Flush Salts (1968)
+# Table: Heat Capacity at constant pressure (unnumbered in the report; printed page 22, PDF page 28)
+# Author of section: A. S. Dworkin
+# Salt compositions in mol %: from the report's composition table (printed page 2, also page 3-5 text). C1/C2 are NaBF4-NaF, not LiF-BeF2.
+# Method: table transcription
+# Units: Cp = a + b*t in cal/(g*degC), t in degC; b blank where Cp is constant
+# basis column: estimated = value or equation estimated/derived by the report's authors; measured = reported as measured; preliminary_measurement = report says preliminary
+# AI-generated, not human-reviewed (Claude Haiku transcription; audited by Claude Sonnet 2026-10-09, see ../AUDIT-2026-10-09.md)
+salt,phase,Cp_a_cal_per_g_degC,Cp_b_cal_per_g_degC2,T_lower_C,T_upper_C,uncertainty_percent,basis
+F1,liquid,0.34,,,,4,estimated
+F1,solid,0.22,1.27e-4,,,10,estimated
+F2,liquid,0.39,,,,4,estimated
+F2,solid,0.27,1.27e-4,,,10,estimated
+F3,liquid,0.33,,,,4,estimated
+F3,solid,0.21,1.27e-4,,,10,estimated
+F4,liquid,0.33,,,,4,estimated
+F4,solid,0.21,1.27e-4,,,10,estimated
+L2B,liquid,0.57,,,,3,measured
+L2B,solid,0.317,3.61e-4,,,3,measured
+C1,liquid,0.36,,,,2,measured
+C1,solid,0.34,,243,381,3,measured
+C1,solid,0.23,5.8e-4,25,243,6,measured
+C2,liquid,0.36,,,,2,measured
+C2,solid,0.33,,243,406,3,measured
+C2,solid,0.23,6.0e-4,25,243,6,measured
+# note: Temperature ranges are blank where the report does not state one in the table; the earlier transcription invented "assumed_25_to_800" ranges.
+# note: F1-F4: liquid by mole-fraction additivity (16, 24, 44 cal/mol/degC for LiF, BeF2, ThF4); solid by assuming the temperature coefficient and liquid-solid difference of measured LiF-BeF2-ThF4 (72-16-12).
+# note: L2B liquid is the average of two independent measurement sets (Hoffman 0.577, Douglas and Payne 0.56); L2B solid is that of Douglas and Payne. C1 and C2 are reported as measured.

@@ -1,0 +1,18 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3963, "Zero Power Experiments with 233U in the MSRE", printed p.19-22 (PDF pp.27-30; page 20 = PDF 28 image-checked)
+# Method: text transcription (checked against page image of printed p.20)
+# Quantity: critical uranium loading/concentration of the MSRE with 233U fuel (91 % 233U isotopic composition of the enriching salt, Table 1 of the report), 1200 F, fuel stationary, all rods at upper limits ("nominal standard conditions").
+# Units as per row
+# Stated uncertainty: per row; effective critical concentration 15.11 +/- 0.10 g U/L is equivalent to 0.67 % in concentration or 0.25 % in keff (report).
+# Predicted value (15.82 g/L, 1967) is CALCULATED and the report says it was a feed-specification estimate, not a "best effort".
+quantity,kind,value,uncertainty,units,note
+uranium loaded to critical,measured,33.26,0.015,kg,
+fuel-salt inventory,measured,77.6,0.5,ft3,
+critical concentration before corrections,measured,15.15,0.10,g U/L,"small correction for last three capsules added to part of the inventory included"
+correction: excess core temperature,correction,0.006,0.007,g/L,"core temp excess 1.7 +/- 2 F"
+correction: control-rod poisoning,correction,0.016,0.008,g/L,"0.04 +/- 0.02 % dk/k"
+correction: core voids,correction,0.018,0.018,g/L,"0.1 +/- 0.1 vol %"
+effective critical concentration at nominal conditions,measured (corrected),15.11,0.10,g U/L,"max error if all uncertainties add: 0.13 g/L"
+predicted critical concentration (original 1967),calculated,15.82,,g U/L,"for feed isotopic composition"
+predicted critical concentration (updated; Table 7),calculated,15.30,,g U/L,"Table 7 'base-line critical concentration'"
+critical loading in fuel loop at reference conditions (M0),measured,30.59,,kg U,"report p.40; isotopic composition of enriching salt"

@@ -1,0 +1,35 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-15 Reduced Experimental Data for He Using Apparatus II-A (Appendix B; printed page 93, PDF page 101)
+# Specimen: He (helium gas)
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.0000,171.6,4.54,,0.08,1.000,0.265,17.1,,measured,calibration
+1-B,0.0100,172.9,5.53,,0.16,1.000,0.265,20.9,,measured,calibration
+1-C,0.0200,172.5,6.83,,0.22,0.994,0.263,26.0,,measured,calibration
+1-D,0.0302,171.6,8.02,,0.21,0.991,0.263,30.5,,measured,calibration
+1-E,0.0401,171.5,9.14,,0.23,0.986,0.261,35.0,,measured,calibration
+1-F,0.0499,172.2,10.28,,0.24,0.981,0.260,39.5,,measured,calibration
+1-G,0.0599,172.5,11.53,,0.25,0.977,0.258,44.7,,measured,calibration
+1-H,0.0700,171.9,12.69,,0.27,0.970,0.256,49.6,,measured,calibration
+1-I,0.1001,172.2,15.75,,0.32,0.945,0.250,63.0,,measured,calibration
+1-J,0.2002,172.9,23.24,,0.38,0.880,0.231,100.6,,measured,calibration
+1-K,0.3003,173.0,29.12,,0.41,0.804,0.211,138.0,,measured,calibration
+2-A,0.0000,508.8,11.09,,-0.03,1.000,0.630,17.6,,measured,calibration
+2-B,0.0100,508.8,13.06,,0.02,1.000,0.630,20.7,,measured,calibration
+2-C,0.0200,508.5,14.97,,0.05,1.000,0.630,23.8,,measured,calibration
+2-D,0.0300,508.0,16.87,,0.07,0.998,0.629,26.8,,measured,calibration
+2-E,0.0401,508.8,18.71,,0.08,0.996,0.628,29.8,,measured,calibration
+2-F,0.0498,509.0,20.75,,0.08,0.994,0.627,33.1,,measured,calibration
+2-G,0.0598,508.0,22.55,,0.09,0.992,0.625,36.1,,measured,calibration
+2-H,0.0700,509.0,24.18,,0.10,0.989,0.622,38.9,,measured,calibration
+2-I,0.0795,509.3,26.68,,0.10,0.987,0.620,43.0,,measured,calibration
+2-J,0.0901,508.5,28.22,,0.10,0.985,0.618,45.7,,measured,calibration
+2-K,0.1000,508.1,30.02,,0.10,0.983,0.617,48.7,,measured,calibration
+2-L,0.1994,509.2,43.92,,0.11,0.965,0.605,72.6,,measured,calibration
+2-M,0.2999,509.3,58.96,,0.08,0.963,0.597,98.8,,measured,calibration
+2-N,0.0000,509.9,11.56,,-0.01,1.000,0.630,18.3,,measured,calibration

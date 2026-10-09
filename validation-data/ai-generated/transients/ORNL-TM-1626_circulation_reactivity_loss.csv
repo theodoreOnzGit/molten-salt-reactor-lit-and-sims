@@ -1,0 +1,10 @@
+# Source: ORNL-TM-1626, Period Measurements on the MSRE during Fuel Circulation: Theory and Experiment
+# Page: PDF p.32 (printed p.26), text of Experimental Results section (scalar values, no table)
+# Method: transcription of text values, checked against page image
+# Units: reactivity increment in percent delta-k/k
+# Stated measurement uncertainty: experimental +/-0.004 percent dk/k (as printed)
+# Operating condition: zero power, MSRE critical with fuel stationary vs fuel circulating (minimum extra 235U mass between the two critical states converted through the rod calibration, Fig. 7); calculation is the report's Eq. 14 with w = 0
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+quantity,source_kind,value_pct_dk_over_k,uncertainty_pct_dk_over_k
+reactivity loss due to fuel circulation,measured,0.212,0.004
+reactivity loss due to fuel circulation,calculated (Eq. 14 w=0),0.222,

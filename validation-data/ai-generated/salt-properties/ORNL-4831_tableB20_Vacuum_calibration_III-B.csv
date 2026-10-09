@@ -1,0 +1,47 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-20 Reduced Experimental Data for vacuum Using Apparatus III-B (Appendix B; printed page 96, PDF page 104)
+# Specimen: none (evacuated cell, used to evaluate plate emissivity)
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.1027,537.3,28.14,,0.54,0.787,0.1306,215.5,,measured,calibration
+1-B,0.2004,537.0,27.94,,0.56,0.781,0.1296,215.6,,measured,calibration
+1-C,0.3001,536.5,27.93,,0.58,0.775,0.1287,217.0,,measured,calibration
+2-A,0.1000,526.7,85.97,,0.74,0.740,0.295,291.4,,measured,calibration
+2-B,0.2000,526.4,85.73,,0.74,0.740,0.295,290.6,,measured,calibration
+2-C,0.2000,526.2,39.36,,0.69,0.755,0.148,265.9,,measured,calibration
+3-A,0.2755,500,57.50,,-0.017,1.010,0.082,701.3,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-B,0.2729,500,79.33,,0.247,0.886,0.163,486.7,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-C,0.2214,500,78.99,,0.247,0.886,0.163,484.6,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-D,0.2205,500,78.52,,0.247,0.886,0.163,481.7,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-E,0.0680,500,78.01,,0.247,0.886,0.163,478.6,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-F,0.0000,500,58.17,,0.141,0.927,0.171,340.2,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-G,0.0208,500,121.18,,0.485,0.805,0.340,356.4,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-H,0.1226,500,121.25,,0.485,0.805,0.333,364.1,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-I,0.2705,500,120.25,,0.480,0.805,0.333,361.1,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-J,0.0000,500,86.26,,0.440,0.820,0.346,249.3,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-K,0.0189,500,181.33,,0.610,0.766,0.624,290.6,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-L,0.2146,500,180.77,,0.610,0.766,0.624,289.7,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-M,0.0000,500,132.53,,0.610,0.766,0.649,204.2,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-N,0.0000,500,132.53,,0.620,0.766,0.649,204.2,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-O,0.0000,500,128.24,,0.620,0.766,0.649,197.6,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-P,0.2212,500,75.26,,0.630,0.766,0.142,530.0,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-Q,0.2212,500,68.94,,0.230,0.893,0.142,485.5,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-R,0.2304,500,60.08,,0.120,0.936,0.178,337.5,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-S,0.2311,500,58.43,,0.100,0.945,0.180,324.6,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+3-T,0.2362,500,38.66,,0.110,1.060,0.090,429.6,T_avg normalized to 500 C (arrow spans runs 3-A to 3-T),measured,calibration
+4-A,0.1472,200,319.78,,0.95,0.599,0.223,1434.0,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-B,0.0204,200,321.64,,0.96,0.596,0.221,1455.3,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-C,0.0000,200,191.93,,1.01,0.579,0.226,849.2,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-D,0.1132,200,157.73,,0.98,0.580,0.099,1593.2,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-E,0.0139,200,158.36,,0.98,0.580,0.098,1615.9,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-F,0.0000,200,90.99,,1.01,0.570,0.102,892.1,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-G,0.1082,200,158.29,,0.99,0.575,0.097,1631.8,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+4-H,0.0055,200,160.08,,0.99,0.573,0.097,1650.3,T_avg normalized to 200 C (arrow spans runs 4-A to 4-H),measured,calibration
+# footnote a: T_avg normalized to 500 C (arrow spans runs 3-A to 3-T)
+# footnote b: T_avg normalized to 200 C (arrow spans runs 4-A to 4-H)
+# note: T_avg for runs 3-A..3-T and 4-A..4-H is not tabulated per run; the table gives 500 (footnote a) and 200 (footnote b) with arrows. Those values are repeated per row here.

@@ -1,0 +1,30 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-18 Reduced Experimental Data for He Using Apparatus II-B (Appendix B; printed page 94, PDF page 102)
+# Specimen: He (helium gas)
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.0000,518.6,12.36,,0.08,1.000,0.619,20.0,,measured,calibration
+1-B,0.0098,518.9,14.23,,0.11,0.999,0.617,23.1,,measured,calibration
+1-C,0.0199,518.6,16.53,,0.15,0.997,0.617,26.8,,measured,calibration
+1-D,0.0300,518.6,19.02,,0.13,0.996,0.617,30.8,,measured,calibration
+1-E,0.0397,518.9,21.01,,0.08,0.996,0.618,34.0,,measured,calibration
+1-F,0.0500,518.4,23.51,,0.07,0.995,0.616,38.2,,measured,calibration
+1-G,0.0600,518.5,25.74,,0.06,0.994,0.615,41.9,,measured,calibration
+1-H,0.0698,518.6,27.91,,0.04,0.995,0.616,45.3,,measured,calibration
+1-I,0.2000,518.3,45.22,,0.10,0.967,0.594,76.1,,measured,calibration
+1-J,0.3000,518.2,55.27,,0.12,0.949,0.580,95.3,,measured,calibration
+2-A,0.0000,945.6,14.78,,0.23,0.998,0.660,22.4,,measured,calibration
+2-B,0.0100,945.5,16.70,,0.22,0.998,0.661,25.3,,measured,calibration
+2-C,0.0195,945.6,18.43,,0.22,0.966,0.661,27.9,,measured,calibration
+2-D,0.0295,945.8,20.12,,0.17,0.995,0.659,30.5,,measured,calibration
+2-E,0.0407,945.6,21.57,,0.18,0.993,0.657,32.8,,measured,calibration
+2-F,0.0511,945.4,23.23,,0.17,0.991,0.656,35.4,,measured,calibration
+2-G,0.0598,945.8,24.70,,0.17,0.989,0.654,37.8,,measured,calibration
+2-H,0.1400,945.4,33.40,,0.19,0.969,0.638,52.3,,measured,calibration
+2-I,0.3020,945.9,44.20,,0.22,0.940,0.618,71.5,,measured,calibration
+2-J,0.0000,944.0,13.63,,0.20,0.998,0.664,20.5,,measured,calibration

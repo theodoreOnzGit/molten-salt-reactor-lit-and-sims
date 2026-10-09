@@ -1,0 +1,34 @@
+# ORNL-TM-1017: Tensile and Creep Properties of INOR-8 for the MSRE
+# Source: J. T. Venard, February 1965, Oak Ridge National Laboratory
+# Page: printed 7 (PDF page 11)
+# Table: 3
+# Title: Creep and Rupture Data for INOR-8 Tested in Air
+# Units: Stress in psi; Time in hours; Elongation in percent; Minimum creep rate in hr^-1
+# Test conditions: Heat 5055 specimens cut parallel to plate rolling direction; three temperatures
+# Method: Table transcription
+# Note: AI-generated, not human-reviewed
+# Notes: Superscript a=Heat 5055 parallel to RD; b=discontinued test; (hr^-1) = creep rate per hour
+Test Number,Temperature (°C),Temperature (°F),Stress (psi),Time to 0.2% strain (hr),Time to 0.5% strain (hr),Time to 1.0% strain (hr),Time to 2.0% strain (hr),Time to 5.0% strain (hr),Time to Rupture (hr),Minimum Creep Rate (hr^-1),Elongation at Fracture (%)
+2267,593,1100,81000,,,,,0.80,5.1,7.8e-3,37.2
+2262,593,1100,70000,0.10,0.15,0.20,0.40,32.2,33.5,6.5e-4,19.6
+2248,593,1100,61000,0.50,2.0,14.0,53.0,,140.4,2.2e-4,4.6
+2201,593,1100,50000,10.0,18.0,40.0,100.0,875,1040.7,2.3e-5,6.2
+1833,593,1100,35000,500,1800,3350,5350,9325,9818.7,2.6e-6,5.4
+2273,704,1300,52000,,,0.10,0.40,1.6,6.2,3.5e-2,29.8
+2264,704,1300,39000,0.20,1.0,2.7,6.2,13.8,29.8,3.4e-3,16.1
+2254,704,1300,34000,0.50,2.5,5.2,11.0,26.2,68.3,1.9e-3,15.9
+2246,704,1300,31000,2.0,5.0,12.0,25.0,64.0,160.3,7.8e-4,38.0
+1840,704,1300,27500,4.0,14.0,30.0,60,144,346.7,3.5e-4,29.1
+2200,704,1300,25000,5.0,15,30,60,160,859.7,3.0e-4,50.3
+2144,704,1300,22000,5.0,14,34,75,185,526.4,2.6e-4,14.9
+1982,704,1300,20000,10,30,95,210,530,1707.3,9.4e-5,26.8
+1842,704,1300,18000,5,70,160,400,950,2682.2,5.0e-5,25.0
+2274,816,1500,23000,0.1,0.3,0.6,1.2,3.0,13.9,1.8e-2,48.0
+2272,816,1500,15000,1.0,4.0,6.0,11,22,93.5,2.8e-3,42.9
+2253,816,1500,12500,1.0,4.0,8.0,16,42,189.0,1.2e-3,33.7
+2239,816,1500,10500,1.0,5.0,20,40,120,390.9,4.2e-4,23.2
+2188,816,1500,8200,2.5,5.0,40,120,340,909.1,1.5e-4,20.5
+2263,816,1500,5600,56,250,550,1250,3500,7593.8,1.1e-5,20.1
+1986,816,1500,5600,100,280,660,1660,,2377.1,9.0e-4,
+# note: Test 1986 rupture time 2377.1 carries printed footnote b (discontinued); its min creep rate printed 9.0 x 10^-4 and elongation is not given
+# note: blank cells are blank in the printed table

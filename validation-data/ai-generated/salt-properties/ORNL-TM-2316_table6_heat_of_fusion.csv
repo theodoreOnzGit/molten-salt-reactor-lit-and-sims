@@ -1,0 +1,21 @@
+# ORNL-TM-2316: Physical Properties of Molten-Salt Reactor Fuel, Coolant, and Flush Salts (1968)
+# Table: Heat of Fusion (unnumbered in the report; printed page 25, PDF page 31)
+# Author of section: A. S. Dworkin
+# Salt compositions in mol %: from the report's composition table (printed page 2, also page 3-5 text). C1/C2 are NaBF4-NaF, not LiF-BeF2.
+# Method: table transcription
+# Units: cal/g
+# basis column: estimated = value or equation estimated/derived by the report's authors; measured = reported as measured; preliminary_measurement = report says preliminary
+# AI-generated, not human-reviewed (Claude Haiku transcription; audited by Claude Sonnet 2026-10-09, see ../AUDIT-2026-10-09.md)
+salt,composition_LiF_mol_percent,composition_BeF2_mol_percent,composition_ThF4_mol_percent,composition_UF4_mol_percent,composition_NaBF4_mol_percent,composition_NaF_mol_percent,heat_cal_per_g,uncertainty_percent,basis,transition_type
+F1,73,16,10.7,0.3,,,62,10,estimated,melting
+F2,72,21,6.7,0.3,,,67,15,estimated,melting
+F3,68,20,11.7,0.3,,,58,15,estimated,melting
+F4,63,25,11.7,0.3,,,63,15,estimated,melting
+L2B,66,34,,,,,107,3,measured,melting
+C1,,,,,92,8,31,2,measured,melting
+C2,,,,,100,0,29,2,measured,melting
+C1,,,,,92,8,14.5,2,measured,solid_transition_at_243C
+C2,,,,,100,0,14.7,2,measured,solid_transition_at_243C
+# note: F1-F4: estimated as if all melting occurred at 500 degC, treating the salts as additive mixtures of Li2BeF4, Li3ThF7 and LiF or ThF4. 10 to 15 cal/g should be added to go from solidus to liquidus.
+# note: L2B, C1, C2: report says Measured (C2 agrees within experimental error with the value derived from C1 by subtracting the NaF contribution). Report does not say L2B is an average of determinations.
+# note: Solid-transition rows (14.5 and 14.7 cal/g at 243 degC) are printed under the heading "dH of solid transition".

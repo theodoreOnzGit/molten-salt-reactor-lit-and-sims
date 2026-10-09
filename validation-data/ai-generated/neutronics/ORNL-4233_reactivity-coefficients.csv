@@ -1,0 +1,25 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233. Scalar results transcribed from text: printed pp.19-20 (PDF 29), p.23 (PDF 33), pp.37-42 (PDF 47, 48, 51, 52). Checked against page images (PDF 29, 33, 47, 48, 51, 52).
+# Method: text/table transcription (no figure digitisation)
+# Quantity: reactivity coefficients and circulation delayed-neutron loss of the MSRE with 235U fuel, near 1200 F, zero power.
+# Units as stated per row. Temperature coefficients in 1/F (x1e-5 shown); SI conversion: multiply by 1.8 to get 1/K (done in the last column; not tuned).
+# Stated uncertainty: in the uncertainty column where the report gave one.
+quantity,kind,value,uncertainty,units,value_per_K_if_temperature_coefficient,condition_or_note
+concentration coefficient (dk/k)/(dm/m),measured,0.223,,dimensionless,,"from slope of Fig. 7; nearly independent of 235U mass 65-72 kg"
+concentration coefficient (dk/k)/(dm/m),calculated,0.248,,dimensionless,,"approach to initial critical mass"
+concentration coefficient (dk/k)/(dm/m),calculated,0.234,,dimensionless,,"average during excess uranium additions"
+reactivity effect of fuel circulation,measured,0.212,0.004,% dk/k,,"vertical separation of the two curves in Fig. 7 (text prints +/-0.004; page image checked)"
+reactivity effect of fuel circulation,calculated (pre-test),-0.30,,% dk/k,,"early prediction, channel region only"
+reactivity effect of fuel circulation,calculated (extended model),0.222,,% dk/k,,"including upper/lower plenum delayed-neutron emission (printed as ""0.222% dk/k"" in text, a loss magnitude; the -0.30 prediction is printed with a minus sign)"
+overall isothermal temperature coefficient,measured,-7.24e-5,,1/F,-1.303e-4,"69.9 kg 235U in loop; straight line; fuel circulating; Fig. 16"
+overall isothermal temperature coefficient,measured,-7.3e-5,,1/F,-1.314e-4,"71.7 kg 235U; slope above ~1140 F; below this slope reduced by circulating helium bubbles (not a true coefficient)"
+overall isothermal temperature coefficient,measured,-6.6e-5 to -8.3e-5,range,1/F,,"67.9 kg 235U; slope range along the curve"
+overall isothermal temperature coefficient,calculated,-8.1e-5,,1/F,-1.458e-4,"based on salt expansion coefficient -1.18e-4 1/F"
+fuel temperature coefficient,calculated,-4.1e-5,,1/F,-7.38e-5,
+graphite temperature coefficient,calculated,-4.0e-5,,1/F,-7.20e-5,
+fuel temperature coefficient,measured (expt 1: hot slug via pump restart),-4.9e-5,2.3e-5,1/F,-8.82e-5,"+/- as quoted; text says predicted values lie in this range"
+fuel temperature coefficient,measured (expt 2: hot coolant slug),-4.7e-5,0.7e-5,1/F,-8.46e-5,"report says uncertainty not well assessed (noise, thermocouple lag)"
+fuel salt thermal expansion coefficient,measured (pump-bowl level),-1.09e-4,,1/F,,"first of two measurements"
+fuel salt thermal expansion coefficient,measured (pump-bowl level),-1.15e-4,,1/F,,"second of two measurements"
+fuel salt thermal expansion coefficient,empirical correlation,-1.18e-4,,1/F,,"early correlation, used in the calculation"
+control-rod worth asymmetry between rods,measured,<0.005,,% dk/k,,"critical positions of each rod compared; negligible"

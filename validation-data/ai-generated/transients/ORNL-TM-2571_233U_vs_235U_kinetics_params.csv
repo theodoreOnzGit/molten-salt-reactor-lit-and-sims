@@ -1,0 +1,18 @@
+# Source: ORNL-TM-2571, Theoretical Dynamic Analysis of the MSRE with 233U Fuel
+# Page: PDF p.7; Table 1 "Comparison of Nuclear Parameters Used in Dynamics Analyses of MSRE with 233U Fuel and with 235U Fuel"
+# Method: table transcription, checked against page image
+# Units: lambda 1/s; beta values multiplied by 1e-4 are stored as plain numbers (i.e. 2.28e-4 stored as 2.28 in the *_x1e-4 columns)
+# Stated uncertainty: none. These are model INPUT parameters (not measurements); 235U column is "Data from Ref. 1" per report footnote.
+# Scalars from same table (recorded here in the header only, not as rows): prompt generation time 233U 4e-4 s, 235U 2.4e-4 s;
+#   fuel-salt temperature coefficient 233U -6.13e-5 /F, 235U -4.84e-5 /F; graphite 233U -3.23e-5 /F, 235U -3.70e-5 /F
+#   (the OCR shows the 235U fuel-salt value as "4.84"; the page image shows a minus sign, -4.84e-5)
+# Operating condition: reactivity/kinetics parameters for the MSRE model
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+group,lambda_233U_per_s,beta_static_233U_x1e-4,beta_circulating_effective_233U_x1e-4,lambda_235U_per_s,beta_static_235U_x1e-4,beta_circulating_effective_235U_x1e-4
+1,0.0126,2.28,1.091,0.0124,2.23,0.52
+2,0.0337,7.88,3.848,0.0305,14.57,3.73
+3,0.139,6.64,4.036,0.111,13.07,4.99
+4,0.325,7.36,5.962,0.301,26.28,16.98
+5,1.13,1.36,1.330,1.14,7.66,7.18
+6,2.50,0.88,0.876,3.01,2.80,2.77
+total,,26.40,17.14,,66.61,36.17

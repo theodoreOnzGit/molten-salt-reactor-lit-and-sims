@@ -1,0 +1,27 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-12 Reduced Experimental Data for H2O Using Apparatus I-A (Appendix B; printed page 87, PDF page 95)
+# Specimen: H2O (water)
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.5122,22.8,16.66,<,0.05,1.000,0.200,83.3,,measured,calibration
+1-B,0.3861,18.4,13.04,<,0.05,1.000,0.201,64.9,,measured,calibration
+1-C,0.2773,29.4,13.04,<,0.05,1.000,0.299,43.6,,measured,calibration
+1-D,0.1301,29.6,6.84,<,0.05,1.000,0.300,22.8,,measured,calibration
+1-E,0.0502,28.6,4.53,<,0.05,1.000,0.301,15.0,,measured,calibration
+1-F,0.2512,46.5,19.34,<,0.05,1.000,0.451,42.9,These data used to calculate k for Run 1,measured,calibration
+1-G,0.1246,45.2,11.12,<,0.05,1.000,0.453,24.5,These data used to calculate k for Run 1,measured,calibration
+1-H,0.0625,44.6,6.86,<,0.05,1.000,0.456,15.0,These data used to calculate k for Run 1,measured,calibration
+1-I,0.0315,44.5,4.72,<,0.05,1.000,0.448,10.5,These data used to calculate k for Run 1,measured,calibration
+2-A,0.3805,52.2,26.55,<,0.05,1.000,0.452,58.7,,measured,calibration
+2-B,0.3679,52.7,26.48,<,0.05,1.000,0.452,58.6,,measured,calibration
+2-C,0.2414,51.9,18.99,<,0.05,1.000,0.455,41.7,,measured,calibration
+2-D,0.1137,50.7,10.54,<,0.05,1.000,0.460,22.9,,measured,calibration
+3-A,0.3740,37.7,20.89,<,0.05,1.000,0.350,59.7,,measured,calibration
+3-B,0.2460,37.9,14.74,<,0.05,1.000,0.352,41.9,,measured,calibration
+3-C,0.1701,38.4,10.82,<,0.05,1.000,0.352,30.7,,measured,calibration
+# footnote a: These data used to calculate k for Run 1

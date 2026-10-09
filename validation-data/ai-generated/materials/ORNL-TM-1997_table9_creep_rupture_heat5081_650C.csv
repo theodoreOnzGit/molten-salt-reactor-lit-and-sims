@@ -1,0 +1,21 @@
+# ORNL-TM-1997: An Evaluation of the MSRE Hastelloy N Surveillance Specimens - First Group
+# Source: H. E. McCoy, Jr., Oak Ridge National Laboratory, November 1967
+# Page: printed 28 (PDF page 34)
+# Table: 9
+# Title: Creep-Rupture Properties of Unirradiated Hastelloy N at 650°C
+# Units: Stress in psi; Rupture Life in hours; Strain in percent; Area and Creep Rate as noted
+# Test conditions: Heat 5081, unirradiated; two conditions as printed: annealed 2 hr at 900°C, and annealed 2 hr at 900°C plus 4800 hr at 650°C in MSRE salt (no as-received block in this table)
+# Method: Table transcription
+# Note: AI-generated, not human-reviewed
+Test Number,Stress (psi),Rupture Life (hr),Rupture Strain (%),Reduction in Area (%),Minimum Creep Rate (%/hr),Heat Condition
+6159,70000,5.1,35.0,12.8,2.1,Annealed 2 hr at 900C
+6155,55000,71.8,33.9,29.2,0.26,Annealed 2 hr at 900C
+6156,47000,76.0,12.4,27.0,0.091,Annealed 2 hr at 900C
+6157,40000,648.3,42.5,25.2,0.032,Annealed 2 hr at 900C
+6158,32400,2133.3,46.8,20.1,0.012,Annealed 2 hr at 900C
+6160a,27000,2349.0,10.2,3.7,0.0047,Annealed 2 hr at 900C
+6077,55000,40.7,24.3,21.9,0.25,Annealed 2 hr at 900C plus 4800 hr at 650C in MSRE salt
+6075,47000,147.9,27.2,21.9,0.098,Annealed 2 hr at 900C plus 4800 hr at 650C in MSRE salt
+6076,40000,321.0,31.1,26.7,0.061,Annealed 2 hr at 900C plus 4800 hr at 650C in MSRE salt
+6071,32400,848.0,16.5,16.1,0.014,Annealed 2 hr at 900C plus 4800 hr at 650C in MSRE salt
+# note: test-number suffix a = printed footnote a, discontinued prior to failure (6160)

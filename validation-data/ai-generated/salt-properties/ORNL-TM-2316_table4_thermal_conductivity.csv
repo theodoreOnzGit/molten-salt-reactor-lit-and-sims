@@ -1,0 +1,20 @@
+# ORNL-TM-2316: Physical Properties of Molten-Salt Reactor Fuel, Coolant, and Flush Salts (1968)
+# Table: Thermal Conductivity (unnumbered in the report; printed page 11, PDF page 17)
+# Author of section: J. W. Cooke
+# Salt compositions in mol %: from the report's composition table (printed page 2, also page 3-5 text). C1/C2 are NaBF4-NaF, not LiF-BeF2.
+# Method: table transcription
+# Units: W/(cm*degC); temperature dependence neglected by the report (first approximation)
+# basis column: estimated = value or equation estimated/derived by the report's authors; measured = reported as measured; preliminary_measurement = report says preliminary
+# AI-generated, not human-reviewed (Claude Haiku transcription; audited by Claude Sonnet 2026-10-09, see ../AUDIT-2026-10-09.md)
+salt,composition_LiF_mol_percent,composition_BeF2_mol_percent,composition_ThF4_mol_percent,composition_UF4_mol_percent,composition_NaBF4_mol_percent,composition_NaF_mol_percent,thermal_conductivity_W_per_cm_degC,uncertainty_percent,uncertainty_qualifier,basis
+F1,73,16,10.7,0.3,,,0.01,25,>=,estimated
+F2,72,21,6.7,0.3,,,0.011,25,>=,estimated
+F3,68,20,11.7,0.3,,,0.0083,25,>=,estimated
+F4,63,25,11.7,0.3,,,0.007,25,>=,estimated
+L2B,66,34,,,,,0.01,10,,measured
+C1,,,,,92,8,0.0052,50,,see_note
+C2,,,,,100,0,0.0051,50,,see_note
+# note: Printed values use subscript digits (F1 0.01 with subscript 0, F2 0.01 with subscript 1, F3 0.008 with subscript 3, F4 0.007 with subscript 0, C1 0.005 sub 2, C2 0.005 sub 1); transcribed as 0.010, 0.011, 0.0083, 0.0070, 0.0052, 0.0051. The printed F1-F4 values carry footnote b: relative values of F1-F4 are no more reliable than the absolute values (see report Discussion).
+# note: F1-F4: estimated from the Rao/Turnbull expression k = 11.9e-3 * Tm^(1/2) * rho_m^(2/3) / (M/n)^(7/6), liquidus T substituted for Tm. The expression gave values ~25% below experiment for two fluoride melts (L2B and LiF-BeF2-ThF4-UF4 71.2-23-5-0.8), and 15% was added to the estimated value.
+# note: L2B: report says Measured (ref 3); it does not say average of measurements.
+# note: C1, C2 (basis see_note): the report says only "Very preliminary measurement on C2 agrees with the theoretical expression"; it does not state which of the tabulated values is measured and which is from the expression.

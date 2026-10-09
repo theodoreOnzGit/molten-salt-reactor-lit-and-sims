@@ -1,0 +1,29 @@
+# Source: ORNL-TM-1647, Experimental Dynamic Analysis of the MSRE (235U fuel)
+# Page: PDF p.46 (printed p.-42-); Fig. 29 "MSRE Natural Periods of Oscillation" (ORNL-DWG 66-10285)
+# Method: figure digitisation (pixel detection of filled markers and of the thick theory curve on a 200 dpi render; calibrated on the labelled log-log grid lines: 0.1 and 1.0 MW, 1 and 10 min). Values stored linear (no log transform).
+# Units: power MW; period of oscillation in minutes (seconds column = minutes x 60)
+# Reading uncertainty (digitiser): about +/-2-3 percent of value (grid skew, line width). The report states NO measurement uncertainty.
+# Operating condition: MSRE 235U fuel, frequency-response/step tests at the stated power; theory = report's theoretical model
+# Note: the legend bullet "EXPERIMENTAL" was excluded; 7 data markers remain. Theory points are taken only where the curve was unobstructed by markers, labels or grid lines.
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+series,power_MW,period_min,period_s
+experimental,0.076,29.3,1760
+experimental,0.468,10.9,652
+experimental,1.008,7.07,424
+experimental,2.455,4.30,258
+experimental,4.865,2.40,144
+experimental,6.781,1.84,110
+experimental,7.337,1.70,102
+theory,0.067,26.1,1566
+theory,0.147,18.2,1094
+theory,0.179,16.6,996
+theory,0.217,15.0,900
+theory,0.265,13.6,818
+theory,0.323,12.4,743
+theory,0.864,7.48,449
+theory,1.052,6.67,400
+theory,2.314,4.19,251
+theory,2.818,3.70,222
+theory,3.431,3.25,195
+theory,4.179,2.82,169
+theory,9.190,1.35,81

@@ -1,0 +1,15 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3963, Table 7 "MSRE Nuclear Characteristics with 233U", printed p.54 (PDF p.62); Table 6 printed p.45 (PDF p.53); text pp.46-47 (PDF 54-55). Image-checked: Table 7, Table 6, p.46.
+# Method: table transcription. Measured-vs-calculated pairs.
+# Conditions: 1200 F, fuel stationary, all rods withdrawn to upper limits (Table 7 note a); uranium of the isotopic composition of the material added in the critical experiment (91 % 233U) (note b).
+# Units: concentration g U/L; rod worth % dk/k; temperature coefficient (dk/k)/F (value x1e-5 below); concentration coefficient (dk/k)/(dC/C); beta_eff change dimensionless.
+# Stated uncertainty: none in Table 7 except critical concentration (+/-0.10 g/L, see ORNL-TM-3963_critical-concentration.csv).
+# Footnotes of Table 7: calculated temperature coefficient assumes no gas in fuel and the operating uranium concentration (predicted at initial critical concentration -9.4e-5); observed -8.5e-5 is "with very little gas"; observed -7.4e-5 is "with about 0.5 vol % gas circulating". Text: pump-off slope -7.75e-5; fuel circulating -6.9e-5 (first test); text states -8.5e-5 with practically no bubbles at reduced pump speed (OCR of this sentence is garbled: the digit string is read '5.5/8.5' - value taken from Table 7 only).
+property,calculated,observed,units,note
+base-line critical concentration,15.30,15.11,g U/L,
+control rod worth - one rod,2.75,2.58,% dk/k,
+control rod worth - three rods,7.01,6.9,% dk/k,
+temperature coefficient (very little gas),-8.8e-5,-8.5e-5,1/F,"SI x1.8: calc -1.584e-4, obs -1.53e-4 per K"
+temperature coefficient (about 0.5 vol % gas),-8.8e-5,-7.4e-5,1/F,"SI x1.8: obs -1.332e-4 per K"
+concentration coefficient (dk/k)/(dC/C),0.389,0.369,dimensionless,"observed 0.355 at the operating concentration (text p.46)"
+change in beta_eff due to fuel circulation,-1.005e-3,,dimensionless,"calculated only"

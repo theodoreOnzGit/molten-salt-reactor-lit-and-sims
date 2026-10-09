@@ -1,0 +1,17 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3002, "Reactor Power Measurement and Heat Transfer Performance in the Molten Salt Reactor Experiment" (C. H. Gabbard, 1970).
+# Page (report numbering): 5, Table I "Typical Values in MSRE Heat Balance at Full Power". Method: table transcription, checked against page image.
+# Units: MW. Test conditions: MSRE salt heat balance at nominal full power (computer heat balance, specific heat of coolant salt as revised 1969), fuel salt ~1200 gpm, coolant salt ~850 gpm per venturi. Sign convention as printed: heat-removal terms positive, power inputs negative; nuclear power generated = sum.
+# Stated uncertainty (text pp.5-6): coolant-salt specific heat +-1.4%; coolant density contributes +-1%; thermocouple dT error +0.23 F at full power = 0.4% overestimate; venturi flow-calibration error 2.9% found; the report concludes flow-meter calibration is the only potentially significant error source. Isotopic-analysis power was 7.34 +- 0.09 MW (vs 8.0 MW nominal heat balance; discrepancy unresolved in this report).
+# Arithmetic check by AI: 7.853+0.341+0.016+0.003+0.011-0.175-0.035-0.007-0.036 = 7.971 (matches printed).
+term,power_MW
+heat_removed_from_coolant_salt_at_radiator,7.853
+heat_removed_by_cooling_water,0.341
+heat_removed_by_component_cooling_air,0.016
+heat_removed_by_fuel_pump_oil,0.003
+unaccountable_heat_losses,0.011
+power_input_to_electric_heaters,-0.175
+power_input_to_fuel_pump,-0.035
+power_input_to_space_coolers,-0.007
+power_input_to_coolant_pump_impeller,-0.036
+nuclear_power_generated,7.971

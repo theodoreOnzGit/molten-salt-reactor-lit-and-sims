@@ -1,0 +1,17 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-1796, "The Reactivity Balance in the MSRE" (J. R. Engel, B. E. Prince, 1967-03-10), Table 2 "Values of Reactivity-Balance Terms in MSRE at Zero Power", printed p.46 (PDF p.52); uncertainty discussion p.48 (PDF p.54). Image-checked.
+# Method: table transcription
+# Quantity: reactivity-balance terms (changes from reference condition) at zero power, no xenon, at start of power operation and after 16,450 Mwhr (end of Run 10, Jan 1967). Terms are largely derived from zero-power measurements plus calculations (samarium, isotope burnout) - a MIX of measured and calculated, not a direct measurement.
+# Units: % dk/k
+# Stated uncertainty: per-term column. Report: +/-2.5 % on terms with experimental measurement, +/-5 % on calculated-only terms; resulting +/-0.04 % dk/k on residual. Precision of consecutive balances at steady conditions ~0.01 % dk/k.
+# Notes: (b) excess 235U after 16,450 Mwhr includes dilution by flush salt; (c) temperature-distribution value at 7.4 Mw is +0.007 % dk/k; (d) xenon value at 7.4 MW is -0.27 % dk/k (as printed 'Mw'); (e) circulating bubbles not currently included (marked e at start, -- after).
+term,effect_described,start_of_power_pct_dk_per_k,after_16450_Mwhr_pct_dk_per_k,change_pct_dk_per_k,estimated_uncertainty_pct_dk_per_k
+KROD,control-rod poisoning,-1.712,-0.911,+0.801,0.020
+KU235,excess 235U concentration,1.785,1.355,-0.430,0.011
+KTEMP,reactor outlet temperature,-0.073,-0.073,0,
+KPOW,temperature distribution,0,0,0,
+KSAM,samarium poisoning,0,-0.534,-0.534,0.027
+KXE,xenon poisoning,0,0,0,
+KB,circulating bubbles,,,,
+KFP,isotope burnout,0,+0.116,+0.116,0.006
+KNET,residual,0,+0.047,+0.047,0.04

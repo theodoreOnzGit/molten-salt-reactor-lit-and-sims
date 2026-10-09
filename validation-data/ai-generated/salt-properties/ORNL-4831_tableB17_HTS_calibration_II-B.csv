@@ -1,0 +1,35 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-17 Reduced Experimental Data for HTS Using Apparatus II-B (Appendix B; printed page 94, PDF page 102)
+# Specimen: HTS (heat transfer salt): KNO3-NaNO2-NaNO3 44-49-7 mol % (printed footnote, printed page 35); a nitrate/nitrite salt, NOT a fluoride
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.0000,526.3,13.20,<,0.01,1.000,0.579,22.8,,measured,calibration
+1-B,0.0099,526.1,15.03,<,0.01,1.000,0.580,26.0,,measured,calibration
+1-C,0.0200,526.1,16.81,<,0.01,1.000,0.579,29.0,,measured,calibration
+1-D,0.0300,526.0,18.65,<,0.01,1.000,0.579,32.2,,measured,calibration
+1-E,0.0400,526.0,19.96,<,0.01,1.000,0.576,34.7,,measured,calibration
+1-F,0.0500,526.2,21.13,<,0.01,1.000,0.576,36.6,,measured,calibration
+1-G,0.0600,526.0,22.44,<,0.01,1.000,0.576,38.9,,measured,calibration
+1-H,0.0700,526.5,23.25,<,0.01,1.000,0.578,40.2,,measured,calibration
+1-H,0.0803,526.3,23.92,<,0.01,1.000,0.578,41.6,second row labelled 1-H as printed (probably 1-I),measured,calibration
+1-J,0.0901,526.3,24.89,<,0.01,1.000,0.578,43.1,,measured,calibration
+1-K,0.1002,526.2,25.90,<,0.01,1.000,0.578,43.7,,measured,calibration
+1-L,0.2000,526.2,37.62,<,0.01,1.000,0.575,65.3,,measured,calibration
+1-M,0.3000,526.4,45.83,<,0.01,1.000,0.572,80.0,,measured,calibration
+1-N,0.1000,526.1,26.03,<,0.01,1.000,0.574,45.3,,measured,calibration
+1-O,0.0000,526.3,13.33,<,0.01,1.000,0.579,23.0,,measured,calibration
+1-P,0.1509,526.3,32.21,<,0.01,1.000,0.574,56.0,,measured,calibration
+1-Q,0.1245,526.4,29.16,<,0.01,1.000,0.578,50.6,,measured,calibration
+1-R,0.1125,526.0,27.64,<,0.01,1.000,0.574,48.2,,measured,calibration
+1-S,0.1000,526.0,25.94,<,0.01,1.000,0.578,45.0,,measured,calibration
+1-T,0.0803,525.7,23.89,<,0.01,1.000,0.578,41.6,,measured,calibration
+1-U,0.1751,525.5,35.86,<,0.01,1.000,0.578,62.1,,measured,calibration
+1-V,0.2300,526.4,41.11,<,0.01,1.000,0.573,71.8,,measured,calibration
+1-W,0.2605,526.6,43.25,<,0.01,1.000,0.574,75.4,,measured,calibration
+# note: Two consecutive rows are both labelled 1-H as printed.
+# note: internal consistency check differs by more than 1% for run 1-K (printed 43.7, computed 44.8 from 25.90/0.578); transcribed as printed, not corrected.

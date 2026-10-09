@@ -1,0 +1,29 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3002, "Reactor Power Measurement and Heat Transfer Performance in the Molten Salt Reactor Experiment" (C. H. Gabbard, 1970).
+# Pages (report numbering): 5-6, 8, 20, 23-25 (Table IV rows "Film Coefficient" and "Overall Coefficient" only; and text values). Method: table/text transcription, checked against page images. Salt property rows of Table IV (conductivity, viscosity, density, cp) deliberately NOT extracted (handled by another agent).
+# Units as given: Btu/(hr-ft2-F) for coefficients, ft2 for area, gpm for flow, MW for power.
+# Conditions: MSRE primary heat exchanger: cross-baffled U-tube shell-and-tube, 159 half-inch tubes (triangular pitch), fuel salt shell side 1200 gpm, coolant salt tube side ~850 gpm; effective surface area 279 ft2 (includes U-bends, excludes tubesheet-to-thermal-barrier area). Radiator: 120 unfinned 3/4-in. tubes ~30 ft long, 10 staggered banks of 12 tubes, air cross-flow, area 706 ft2. Overall coefficients measured via the (alpha+beta) vs (alpha-beta) slope method (Refs 10, 15) at several power levels, nominal full power 8.0 MW.
+# Stated uncertainty: none stated for U; 8 measurements ranged 646-675 (average 656). Radiator values depend on outlet-air temperature estimates (not directly measured except with bypass damper closed) and the old stack calibration; text says the radiator performance data were not intended for accurate determination.
+# "Original" = design-time property data; "Current" = latest measured property data (calculated, not measured, coefficients via Sieder-Tate tube-side / Kern shell-side).
+quantity,value,unit,source_page,note
+HX_overall_U_measured_min,646,Btu/hr-ft2-F,24,8 measurements at nominal 8.0 MW and 850 gpm coolant flow
+HX_overall_U_measured_max,675,Btu/hr-ft2-F,24,
+HX_overall_U_measured_mean,656,Btu/hr-ft2-F,24,
+HX_overall_U_measured_if_coolant_flow_770gpm,594,Btu/hr-ft2-F,24,if actual flow were 770 gpm (consistent with 7.34 MW power)
+HX_overall_U_calculated_if_coolant_flow_770gpm,599,Btu/hr-ft2-F,24,
+HX_overall_U_calculated_original_design_properties,1186,Btu/hr-ft2-F,23,Table IV
+HX_overall_U_calculated_current_properties,618,Btu/hr-ft2-F,23,Table IV
+HX_fuel_film_coefficient_calculated_original,3523,Btu/hr-ft2-F,23,Table IV
+HX_coolant_film_coefficient_calculated_original,5643,Btu/hr-ft2-F,23,Table IV
+HX_fuel_film_coefficient_calculated_current,1497,Btu/hr-ft2-F,23,Table IV
+HX_coolant_film_coefficient_calculated_current,1989,Btu/hr-ft2-F,23,Table IV
+radiator_overall_U_observed_full_power,42.7,Btu/hr-ft2-F,25,assuming nominal 8.0 MW; evaluated with original stack-flow calibration
+radiator_overall_U_design_corrected_air_film_temperature,51.5,Btu/hr-ft2-F,20 and 25,McAdams film-temperature evaluation (calculated)
+radiator_overall_U_design_original_surface_temperature,60,Btu/hr-ft2-F,20,calculated with air properties at tube surface temperature
+isotopic_full_power_level,7.34,MW,4,+-0.09 MW (isotopic analysis of U and Pu in fuel salt)
+nominal_heat_balance_full_power,8.0,MW,4,computer heat balance after 1969 specific-heat revision (previously 7.2 MW)
+coolant_flow_venturi_nominal,850,gpm,6,
+coolant_flow_if_power_were_7.34MW,770,gpm,6,flow that would reconcile heat balance with isotopic power
+coolant_flow_activation_product_decay_measurement,610,gpm,8,F-20 1.63 MeV gamma method; report says probably 20-30% below actual; inconclusive
+coolant_salt_circulating_volume_between_detector_stations,20.9,ft3,7,
+MSRE_fuel_salt_flow_nominal,1200,gpm,2,

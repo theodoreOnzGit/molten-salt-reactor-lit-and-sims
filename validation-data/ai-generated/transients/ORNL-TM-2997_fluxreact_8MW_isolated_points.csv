@@ -1,0 +1,18 @@
+# Source: ORNL-TM-2997, Experimental Dynamic Analysis of the MSRE with 233U Fuel
+# Page: PDF p.20 (printed p.20); Fig. 9 "Neutron Flux-to-Reactivity Frequency Response of the 233U-Fueled MSRE at 8 MW" (ORNL-DWG 69-12246), magnitude panel
+# Method: figure digitisation (square markers located by template matching on a 250 dpi render, calibrated on the labelled log-log decade grid lines: 1e-3..1e0 rad/s, 1e2..1e4). Values stored linear.
+# Quantity: magnitude ratio delta-n / (N0 . delta-k), dimensionless (as labelled on the axis)
+# Units: frequency rad/s
+# Reading uncertainty (digitiser): about +/-3 percent in magnitude, +/-1.5 percent in frequency. The report states no measurement uncertainty; text says FOURCO, CABS and CPSD gave the same results here.
+# Operating condition: 233U fuel, 8 MW, circulating fuel, PRBS/PRTS rod-motion test
+# ONLY the 7 isolated low-frequency markers (<= 0.07 rad/s) are included. The dense cluster 0.07-0.8 rad/s, the phase panel and the theory curve were NOT digitised (see README).
+# Measured data only; no calculated column.
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+frequency_rad_per_s,magnitude_ratio_measured
+0.0100,208
+0.0198,300
+0.0300,444
+0.0395,502
+0.0498,623
+0.0593,616
+0.0692,660

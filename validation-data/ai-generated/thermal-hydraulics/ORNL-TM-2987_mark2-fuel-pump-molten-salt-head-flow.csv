@@ -1,0 +1,13 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-2987, "Development of Fuel- and Coolant-Salt Centrifugal Pumps for the Molten-Salt Reactor Experiment" (P. G. Smith, Oct 1970). Page 37 (report numbering; PDF page 41), Fig. 18 (ORNL-DWG 70-6824) "Hydraulic Performance of Mark-2 Fuel-Salt Pump".
+# Quantity: total head (ft) vs flow (gpm) for the Mark-2 fuel-salt pump, 11.5-in. OD impeller (Allis-Chalmers 8x6 Type E, P-482), molten salt at a constant 1200 F, speeds measured along a constant line of flow resistance (report text p.36). Open circles = ORNL molten-salt data. The vendor (Allis-Chalmers water) curves and the dashed short-lines through each point are NOT digitised. Report states molten-salt heads are within 2 ft of the vendor's values.
+# Method: figure digitisation (200 dpi, deskewed, enclosed-ring interiors located by connected-component analysis; gridline-fit residuals <= 3 px).
+# Reading uncertainty: about +-8 gpm and +-0.15 ft. DOUBT: the three points near 1151-1164 rpm lie within ~12 px of each other; the assignment of the 1151 label to the lowest point is from the label arrows, and which of the two upper points is 1163 vs 1164 rpm could not be resolved, so both are labelled 'ambiguous'. No measurement uncertainty is stated in the report.
+speed_rpm_label,flow_gpm,total_head_ft
+1163/1164 (ambiguous),1352,52.0
+1163/1164 (ambiguous),1334,51.7
+1151,1341,50.6
+1031,1222,40.5
+861,1040,28.0
+699,840,18.5
+602,771,14.0

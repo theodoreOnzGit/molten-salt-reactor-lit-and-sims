@@ -1,0 +1,17 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3464, Fig. 19 "Calculated and Observed Steady-State Xenon Poisoning with Helium and Argon Cover Gases - Best Fit", printed p.72 (PDF p.78). Consistent with Fig. 17 (argon, PDF p.73) and Fig. 18 (helium, PDF p.76) points.
+# Method: FIGURE DIGITISATION by eye from a 200-dpi render. ONLY the MEASURED points (open circles = helium, filled = argon) are taken; the plotted curves are CALCULATED fits (tuned bubble-interaction parameters, "best fit") and are NOT digitised.
+# Units: core void fraction vol %; xenon poisoning % dk/k (full-power steady state)
+# Reading uncertainty: +/-0.015 % dk/k vertical, +/-0.01 vol % horizontal. The two argon points at lowest void fraction carry horizontal error bars in the report (void fraction uncertain): read ranges ~0-0.05 and ~0.01-0.09 vol %.
+cover_gas,core_void_fraction_vol_pct,void_fraction_range_lo,void_fraction_range_hi,xenon_poisoning_pct_dk_per_k
+helium,0.00,,,0.22
+helium,0.12,,,0.28
+helium,0.25,,,0.61
+helium,0.40,,,0.48
+helium,0.40,,,0.46
+helium,0.53,,,0.40
+argon,0.02,0.00,0.05,0.82
+argon,0.05,0.01,0.09,0.88
+argon,0.25,,,0.57
+argon,0.50,,,0.36
+argon,0.70,,,0.20

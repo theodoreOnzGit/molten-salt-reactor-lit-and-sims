@@ -1,0 +1,15 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3151, "A Study of Fission Products in the Molten-Salt Reactor Experiment by Gamma Spectrometry" (A. Houtzeel, F. F. Dyer, Aug 1972), Table 7.1, printed p.65 (PDF p.73). Image-checked.
+# Method: table transcription
+# Quantity: nuclide activity per inch of line, jumper line of main reactor off-gas system, at shutdown 1969-06-01.
+# Units: dis/min per inch of line
+# Stated uncertainty: standard deviation of the average value (column). Collimated spectrometry; the report notes calibration geometry limits.
+nuclide,activity_dis_per_min_per_in,std_dev_of_average_dis_per_min_per_in
+95Nb,2.2e12,1.0e11
+103Ru,4.5e12,2.8e11
+106Ru-Rh,1.9e12,0.8e11
+125Sb,3.6e10,5.0e9
+129mTe,5.5e11,5.4e10
+131I,9.5e11,6.2e10
+137Cs,5.3e11,11.0e10
+140Ba-La,4.4e12,5.7e11

@@ -1,0 +1,22 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233, Fig. 6 "Integral Worth of Control Rod No. 1", printed p.18 (PDF p.28)
+# Method: FIGURE DIGITISATION by eye from a 250-dpi render, read at the vertical gridlines (every 4 in.). Smooth curves only (no scatter points on this figure). Both curves are derived by the authors by integrating the Fig. 5 differential-worth curve; the final-loading curve = critical-loading curve / 1.087 (text p.17).
+# Quantity: integral reactivity worth of regulating rod 1 versus rod position (in. withdrawn), fuel stationary.
+# Units: position in. withdrawn; worth % dk/k
+# Reading uncertainty: +/-0.03 % dk/k vertical (about 1/7 of a 0.2 gridline), +/-0.1 in horizontal. Gridlines: 0.2 % dk/k, 4 in. The 52 in. values are read at the right-hand edge.
+# Cross-check: Table 4 measured single-rod worth 2.26 % (rod 2, initial critical conc.) vs 2.24 read here at 52 in.
+rod_position_in_withdrawn,worth_critical_loading_65.25kg_pct_dk_per_k,worth_final_loading_71.71kg_pct_dk_per_k
+0,0.00,0.00
+4,0.10,0.09
+8,0.24,0.21
+12,0.43,0.38
+16,0.64,0.58
+20,0.88,0.80
+24,1.12,1.03
+28,1.36,1.26
+32,1.59,1.44
+36,1.79,1.64
+40,1.97,1.80
+44,2.10,1.92
+48,2.19,2.01
+52,2.24,2.06

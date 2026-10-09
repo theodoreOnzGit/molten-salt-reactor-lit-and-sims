@@ -1,0 +1,17 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised/transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3229, "Fluid Dynamic Studies of the Molten-Salt Reactor Experiment (MSRE) Core" (R. J. Kedl, 19 Nov 1970; preliminary-nature notice on cover).
+# Page (report numbering): 21; Fig. 12 (ORNL-DWG 64-6724A1). Quantity: head loss across the moderator assembly (total, incl. graphite support lattice) vs fluid flow rate.
+# Method: figure digitisation: page rendered at 200 dpi, deskewed, marker centres located by image processing (morphological opening / enclosed-ring detection), axes calibrated by least-squares fit to printed gridlines (gridline fit residuals shown below). Axes are logarithmic in the original; values here are linear numbers. The separately measured support-lattice-only line and the printed slope-2.0 fit lines are NOT digitised (only drawn lines, no data points).
+# Test conditions: full-scale MSRE core/vessel mockup (carbon steel vessel and loop, aluminium core blocks, model tolerances normally doubled vs reactor; control rods and specimen holder NOT modelled), water at 75-80 F in the loop (Re about 4x reactor) unless stated; flow 1200 gpm = reactor design fuel flow (5 in. inlet pipe). Fluid: water in the loop; a small correction was applied by the author for small holes drilled through the MSRE support grid (report text p.20). Slope of 2.0 on log-log plot (form-loss dominated); Re in fuel channels with water > 4000 (about 1000 with salt).
+# Stated uncertainty: none given in report. Digitisation reading uncertainty: about +-2% of value on both coordinates (log-axis gridline-fit residuals <= 1.5 px in x, <= 2.1 px in y; 1 px ~ 0.5% in flow, ~0.5% in head). The flow values read 297..1179 and are probably nominal 300, 400,...,1200 gpm; reading values reported as measured from the page.
+flow_gpm,head_loss_ft_fluid
+296.5,0.0521
+397.1,0.0817
+495.2,0.1147
+598.4,0.1787
+690.9,0.2317
+796.2,0.3086
+901.0,0.3936
+998.9,0.4701
+1094.1,0.5521
+1179.3,0.6162

@@ -1,0 +1,16 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233, Table 3 "Worth of Control-Rod Banks Measured in Rod Shadowing Experiments", printed p.22 (PDF p.32)
+# Method: table transcription (checked against page image)
+# Quantity: banked-rod critical positions of regulating rod 1 with shim rods 2 (and 3) inserted, and derived total bank worth. Derived by scaling the single-rod integral worth curve (Fig. 6) - i.e. partly model-dependent, not a direct measurement of full-insertion worth.
+# Conditions: fuel pump running; excess reactivity normalized to initial critical loading in loop (65.25 kg 235U), zero of reactivity with all three rods at 51 in.
+# Units: 235U mass kg; excess reactivity % dk/k; position in. withdrawn; worth ratio dimensionless; total worth % dk/k
+# Stated uncertainty: none stated in table. Text (p.22-23): rod-to-rod asymmetry <0.005 % dk/k. Average rows in report: 4.050 (rods 1-2), 5.592 (rods 1-2-3) (report prints 5.592; the three listed values average to 5.592).
+experiment_no,rod_group,u235_in_loop_kg,excess_reactivity_pct_dk_per_k,banked_critical_position_in_withdrawn,worth_at_position_over_worth_full_insertion,total_worth_full_insertion_pct_dk_per_k
+1,1-2,67.94,0.780,36.4,0.1903,4.099
+2,1-2,69.94,1.460,28.8,0.3673,3.975
+3,1-2,71.71,2.095,23.3,0.5142,4.075
+average,1-2,,,,,4.050
+1,1-2-3,67.94,0.780,39.0,0.1394,5.596
+2,1-2-3,69.94,1.460,33.3,0.2602,5.611
+3,1-2-3,71.71,2.095,28.4,0.3761,5.570
+average,1-2-3,,,,,5.592

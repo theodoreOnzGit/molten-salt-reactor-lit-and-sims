@@ -1,0 +1,15 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3151, Table 7.2 "Relative nuclide activity found in the main fuel line (102) at shutdown time on June 1, 1969", printed p.66 (PDF p.74). Image-checked.
+# Method: table transcription
+# Quantity: nuclide activity relative to 95Nb (765.8 keV photopeak), main fuel line 102. The report warns: "Restraint should be applied in using these numbers" (different counting geometry; qualitative; constant efficiency assumed over 500-1000 keV).
+# Units: dimensionless ratio
+# Stated uncertainty: none stated (values given to 1-2 digits)
+nuclide,photopeak_energy_used_keV,activity_relative_to_95Nb,note
+95Nb,765.8,1.0,
+103Ru,496.9,0.7,
+106Ru-Rh,"average of 511.8 and 621.8",0.1,
+125Sb,427.9,0.02,
+127Sb,,,"activity too small for proper calculation"
+129mTe,459.6,0.4,
+131I,364.5,0.7,
+132Te-I,"average of 667.7, 772.6 and 954.5",7.0,

@@ -1,0 +1,13 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233, Table 2 "Delayed Neutron Fractions in the MSRE", printed p.16 (PDF p.26)
+# Method: table transcription (checked against page image)
+# Quantity: six-group decay constants and delayed neutron fractions used by the report's inhour analysis. These are the report's ADOPTED/CALCULATED input values (not measurements); effective values include an approximate importance correction (text p.15). Neutron generation time quoted in text: 2.6e-4 sec (OCR "2.6 x lo-" digits unclear; exponent not verified - not transcribed here).
+# Units: decay constant 1/s; delay fraction x1e4 (n/n)
+# Stated uncertainty: none stated
+group,decay_constant_per_s,delay_fraction_actual_x1e4,delay_fraction_effective_static_fuel_x1e4
+1,0.0124,2.11,2.23
+2,0.0305,14.02,14.57
+3,0.1114,12.54,13.07
+4,0.3013,25.28,26.28
+5,1.140,7.40,7.66
+6,3.010,2.70,2.80

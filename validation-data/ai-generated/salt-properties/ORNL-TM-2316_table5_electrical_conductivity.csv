@@ -1,0 +1,18 @@
+# ORNL-TM-2316: Physical Properties of Molten-Salt Reactor Fuel, Coolant, and Flush Salts (1968)
+# Table: Electrical (Specific) Conductivity, kappa = kappa0 + a*(t-500) (unnumbered in the report; printed page 14, PDF page 20)
+# Author of section: G. D. Robbins
+# Salt compositions in mol %: from the report's composition table (printed page 2, also page 3-5 text). C1/C2 are NaBF4-NaF, not LiF-BeF2.
+# Method: table transcription
+# Units: kappa in (ohm*cm)^-1; t in degC
+# basis column: estimated = value or equation estimated/derived by the report's authors; measured = reported as measured; preliminary_measurement = report says preliminary
+# AI-generated, not human-reviewed (Claude Haiku transcription; audited by Claude Sonnet 2026-10-09, see ../AUDIT-2026-10-09.md)
+salt,composition_LiF_mol_percent,composition_BeF2_mol_percent,composition_ThF4_mol_percent,composition_UF4_mol_percent,composition_NaBF4_mol_percent,composition_NaF_mol_percent,kappa0_per_ohm_cm,coefficient_a_per_ohm_cm_degC,reference_temp_C,uncertainty_percent,basis
+F1,73,16,10.7,0.3,,,1.72,8.0e-03,500,20,estimated
+F2,72,21,6.7,0.3,,,1.63,7.3e-03,500,20,estimated
+F3,68,20,11.7,0.3,,,1.66,6.4e-03,500,20,estimated
+F4,63,25,11.7,0.3,,,1.94,7.1e-03,500,20,estimated
+L2B,66,34,,,,,1.54,6.0e-03,500,10,preliminary_measurement
+C1,,,,,92,8,2.7,1.3e-02,500,50,estimated
+C2,,,,,100,0,1.92,2.6e-03,500,20,estimated
+# note: Report: "For 6 salts kappa was estimated empirically from data on related or analogous salt melts"; L2B is the one with preliminary measurements (ref 4). C1 interpolated from NaF-NaBF4 literature data (large uncertainty reflects doubt in ref 9); C2 from KBF4/NaI analogy.
+# note: Printed coefficient a is "x 10^-3" (e.g. 8.0 x 10^-3), converted here. Significant figures show differences between similar salts, not precision.

@@ -1,0 +1,22 @@
+# Source: ORNL-TM-1647, Experimental Dynamic Analysis of the MSRE (235U fuel)
+# Page: PDF p.16 (printed p.12); Table 2 "Pseudo-Random Binary Sequence Tests"
+# Method: table transcription, checked against page image
+# Units: power MW; bit duration s; periodicity s; minimum frequency rad/s
+# Stated measurement uncertainty: none stated (test configuration table, not a measurement)
+# Operating condition: MSRE 235U fuel; zero-power rows are 0 MW; pumps/fuel circulation not stated in this table
+# Note: rows 1-2 (0 MW) have 19- and 63-bit sequences; all others 511 or 127 bits
+# LABEL: AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; research, education and V&V only.
+power_MW,bits_in_sequence,bit_duration_s,prbs_periodicity_s,min_frequency_rad_per_s
+0,19,6.58,125,0.05
+0,63,3.35,211,0.03
+0.075,511,3.35,1711,0.0037
+0.465,511,3.35,1712,0.0037
+1.0,511,3.35,1711,0.0037
+1.0,127,5.02,638,0.0098
+2.5,511,3.32,1699,0.0037
+2.5,127,4.97,631,0.010
+5.0,511,3.33,1701,0.0037
+5.0,127,4.97,631,0.010
+6.7,511,3.32,1698,0.0037
+7.5,511,3.33,1701,0.0037
+7.5,127,4.97,631,0.010

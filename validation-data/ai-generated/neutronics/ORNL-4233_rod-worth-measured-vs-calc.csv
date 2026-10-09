@@ -1,0 +1,10 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-4233, Table 4 "Comparison of Theoretical Calculations of Control Rod Effects with Experimental Measurements", printed p.35 (PDF p.45)
+# Method: table transcription (checked against page image). Measured-vs-calculated pair.
+# Quantity: control-rod worth. dk_e = ke(0)-ke(1) (rods fully out minus fully in through a cylindrical core of effective nuclear height 78.2 in.); dp_s = static reactivity change (CALCULATED); dp_s(51 in.) = calculated value reduced by 0.927 for the available 51 in. travel (CALCULATED); dp_exp(51 in.) = MEASURED (period/rod-drop based).
+# Units: dk_e dimensionless (delta k); worths % dk/k
+# Stated uncertainty: not stated in the table (text p.31 says rod-drop vs calibration self-consistency within 5 %)
+uranium_concentration,rods_inserted,dk_e_calc,dp_s_calc_pct_dk_per_k,dp_s_51in_calc_pct_dk_per_k,dp_exp_51in_measured_pct_dk_per_k
+initial critical concentration,2,0.0218,2.278,2.111,2.26
+initial critical concentration,1-2-3,0.0546,5.894,5.463,5.59
+1.1 x initial critical concentration,2,0.0211,2.094,1.941,2.08

@@ -1,0 +1,21 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: B-13 Reduced Experimental Data for Hg Using Apparatus I-A (Appendix B; printed page 88, PDF page 96)
+# Specimen: Hg (mercury)
+# ROLE: CALIBRATION FLUID, not a fluoride salt. ORNL-4831 reports no fluoride-salt measurements (printed pages 35, 45: fluoride results "will be reported in a later publication").
+# Quantity: reduced variable-gap data = specimen thickness, average temperature, temperature drop, guard and shunting factors, heat flux, total thermal resistance. Thermal conductivity is the reciprocal slope of resistance vs thickness (report text); k values are in main-text Table 2, see ORNL-4831_table2_calibration_k_vs_T.csv
+# Units: thickness cm; T_avg and delta_T degC; heat flux W/cm^2; thermal resistance degC*cm^2/W; guard/shunting factors dimensionless
+# Method: table transcription
+# basis column: measured (raw experimental results reduced by the author); role column: calibration
+# AI-generated, not human-reviewed
+run_no,thickness_cm,T_avg_C,delta_T_C,guard_factor_qualifier,guard_factor,shunting_factor,heat_flux_W_cm2,thermal_resistance_degC_cm2_per_W,footnote_or_note,basis,role
+1-A,0.4946,60.2,6.99,<,0.05,1.000,0.634,11.03,,measured,calibration
+1-B,0.2408,60.8,5.10,<,0.05,1.000,0.634,8.04,,measured,calibration
+1-C,0.2401,60.9,5.33,<,0.05,1.000,0.669,7.97,,measured,calibration
+1-D,0.1130,60.5,4.33,<,0.05,1.000,0.669,6.47,,measured,calibration
+1-E,0.0568,58.8,3.86,<,0.05,1.000,0.670,5.76,,measured,calibration
+2-A,0.2418,61.2,4.93,<,0.05,1.000,0.668,7.38,,measured,calibration
+2-B,0.1180,61.2,4.02,<,0.05,1.000,0.667,6.03,,measured,calibration
+2-C,0.3810,61.4,6.04,<,0.05,1.000,0.668,9.04,,measured,calibration
+2-D,0.2419,60.4,4.96,<,0.05,1.000,0.662,7.47,,measured,calibration
+2-E,0.1142,60.4,4.07,<,0.05,1.000,0.664,6.12,,measured,calibration
+2-F,0.0147,60.4,3.38,<,0.05,1.000,0.666,5.08,,measured,calibration

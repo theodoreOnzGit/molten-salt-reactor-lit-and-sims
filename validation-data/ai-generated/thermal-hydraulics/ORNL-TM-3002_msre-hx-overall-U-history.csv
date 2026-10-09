@@ -1,0 +1,15 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3002, "Reactor Power Measurement and Heat Transfer Performance in the Molten Salt Reactor Experiment" (C. H. Gabbard, 1970).
+# Page (report numbering): 22, Fig. 5 "Observed Performance of MSRE Heat Exchanger" (ORNL-DWG 70-3174), dots = "Heat Transfer Coefficient" (left axis, Btu/hr-ft2-F). Method: figure digitisation (page rendered 200 dpi, deskewed 0.3 deg, dot centres by image processing; y axis calibrated on the printed 0-800 gridlines, x axis on monthly gridlines). The heat-transfer-index bars (right axis, MW/F) are NOT digitised.
+# x: months since 1 Jan 1967 (0 = left frame, 36 = end of Dec 1969), reading uncertainty +-0.1 month. Dot-to-calendar-date assignment beyond this is not claimed.
+# Reading uncertainty on U: about +-3 Btu/hr-ft2-F (+-3 px at 1.12 units/px). Cross-check (not used for calibration): digitised min/max/mean = 648.5/675.4/658.8 vs report text 646/675/656 for 8 measurements (p.24).
+# Measured values assume nominal 8.0 MW (text p.24). Stated uncertainty: none given in report.
+months_since_1967-01-01,overall_U_Btu_hr_ft2_F
+0.98,660
+1.91,664
+3.42,655
+3.98,655
+5.75,649
+7.29,651
+9.91,675
+14.48,663

@@ -1,0 +1,41 @@
+# ORNL-4831: Development of the Variable-Gap Technique for Measuring the Thermal Conductivity of Fluoride Salt Mixtures (J. W. Cooke, February 1973)
+# Table: 2 Experimental results (main text; printed page 41, PDF page 49)
+# ROLE: CALIBRATION FLUIDS (H2O, Hg, HTS, He, Ar), not fluoride salts. The report contains no fluoride-salt measurements.
+# HTS (heat transfer salt): KNO3-NaNO2-NaNO3 44-49-7 mol % (printed page 35); a nitrate/nitrite salt.
+# Quantity: thermal conductivity k from the variable-gap apparatus (experimental) and the literature value used for comparison
+# Units: k in W/(cm*degC), tabulated x10^3 in the report and given here as plain W/(cm*degC) (e.g. 6.71e-3); temperature degC; difference percent
+# Method: table transcription. Printed experimental values carry a subscript last digit (e.g. 6.7 with subscript 1 = 6.71), transcribed as the full number.
+# basis column: measured (experimental k from this work); literature k is the comparison value, reference number as printed (5 Turnbull HTS, 13 water, 22 argon/helium, 23 mercury)
+# AI-generated, not human-reviewed
+apparatus_model,specimen,run_no,temperature_C,k_experimental_W_cm_degC,k_literature_W_cm_degC,difference_percent,literature_ref_no,basis,role
+I-A,H2O,1,45.2,0.00671,0.00638,5.2,13,measured,calibration
+I-A,H2O,2,51.9,0.00671,0.00647,3.7,13,measured,calibration
+I-A,H2O,3,38.0,0.00678,0.0063,7.6,13,measured,calibration
+I-A,Hg,1,60.2,0.0831,0.0932,-10.8,23,measured,calibration
+I-A,Hg,2,60.8,0.0932,0.0932,0.0,23,measured,calibration
+I-A,HTS,1,307,0.00424,0.0043,-1.4,5,measured,calibration
+I-A,HTS,2,308,0.00415,0.0043,-3.5,5,measured,calibration
+I-A,HTS,3,546,0.00345,0.00324,6.5,5,measured,calibration
+I-A,HTS,4,545,0.00334,0.00324,3.1,5,measured,calibration
+I-A,HTS,5,197,0.00478,0.0048,-0.4,5,measured,calibration
+I-A,HTS,6,277,0.00443,0.00438,1.1,5,measured,calibration
+I-A,HTS,7,549,0.00347,0.00322,7.7,5,measured,calibration
+I-A,HTS,8,285,0.00464,0.0044,5.5,5,measured,calibration
+I-A,HTS,9,199,0.00483,0.0048,0.6,5,measured,calibration
+I-A,HTS,10,198,0.00471,0.0048,1.9,5,measured,calibration
+I-A,HTS,11,552,0.00307,0.00321,-4.4,5,measured,calibration
+I-A,HTS,12,554,0.00348,0.0032,8.7,5,measured,calibration
+II-A,He,1,172,0.00205,0.00193,6.2,22,measured,calibration
+II-A,He,2,509,0.00304,0.00302,0.7,22,measured,calibration
+II-B,He,1,519,0.0027,0.00304,-11.2,22,measured,calibration
+II-B,He,2,946,0.0037,0.00421,-12.1,22,measured,calibration
+II-B,Ar,1,503,0.00034,0.000361,-5.8,22,measured,calibration
+II-B,Ar,2,860,0.000493,0.000463,6.5,22,measured,calibration
+II-B,Ar,3,859,0.000452,0.000463,-2.4,22,measured,calibration
+II-B,HTS,1,526,0.00328,0.00333,-1.5,5,measured,calibration
+III-B,He,1,525,0.0032,0.00307,4.2,22,measured,calibration
+III-B,He,2,527,0.003,0.00307,-2.3,22,measured,calibration
+III-B,He,3,105,0.00194,0.00177,9.6,22,measured,calibration
+III-B,HTS,1,517,0.00334,0.00337,-0.9,5,measured,calibration
+III-B,HTS,2,317,0.00449,0.00426,5.4,5,measured,calibration
+III-B,HTS,3,120,0.00627,0.0055,14.0,5,measured,calibration

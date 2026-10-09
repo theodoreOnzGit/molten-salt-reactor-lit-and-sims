@@ -1,0 +1,15 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3002, "Reactor Power Measurement and Heat Transfer Performance in the Molten Salt Reactor Experiment" (C. H. Gabbard, 1970).
+# Page (report numbering): 13, Table III "Results of MSRE Air Heat Balances". Method: table transcription, checked against page image.
+# Units: MW (ratio dimensionless). Case I = nominal full-power condition; case II = highest power attainable with one blower (fall 1969, with pitot-venturi re-calibrated; air-flow and temperature traverses on two perpendicular diameters of the 10-ft-diameter radiator stack).
+# Footnote: electric power input includes power to radiator heaters and the main and annulus blowers in addition to the electric input applicable to a salt heat balance.
+# Stated uncertainty: none given for individual terms; report states the air heat balances were inconsistent with each other (ratio 0.881 vs 0.764) and that large air velocity/temperature non-uniformities (Fig. 3) make accurate air flow measurement difficult, so the salt heat balance takes precedence.
+# Arithmetic check by AI: case I 7.335+0.343+0.0166-0.679 = 7.0156 (printed 7.01); case II 4.93+0.295+0.017-0.421 = 4.821 (printed 4.82). Ratio check: 7.01/7.96 = 0.8807 (printed 0.881); 4.82/6.31 = 0.7639 (printed 0.764).
+term,case_I,case_II
+heat_removed_by_radiator_air_flow_MW,7.335,4.93
+heat_removed_by_cooling_water_MW,0.343,0.295
+heat_removed_at_component_cooling_pump_MW,0.0166,0.017
+electric_power_input_MW,-0.679,-0.421
+nuclear_power_by_air_heat_balance_MW,7.01,4.82
+computer_salt_heat_balance_power_MW,7.96,6.31
+ratio_air_to_salt_heat_balance_power,0.881,0.764

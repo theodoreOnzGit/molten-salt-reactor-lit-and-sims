@@ -1,0 +1,23 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Digitised/transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data.
+# Source: ORNL-TM-3229, "Fluid Dynamic Studies of the Molten-Salt Reactor Experiment (MSRE) Core" (R. J. Kedl, 19 Nov 1970; preliminary-nature notice on cover).
+# Page (report numbering): 12; Fig. 7 (ORNL-DWG 64-6723A1). Quantity: fluid velocity at the centre of the core-wall cooling annulus vs vertical distance up the annulus, 300/600/1200 gpm.
+# Method: figure digitisation: page rendered at 200 dpi, deskewed, marker centres located by image processing (morphological opening / enclosed-ring detection), axes calibrated by least-squares fit to printed gridlines (gridline fit residuals shown below). 
+# Test conditions: full-scale MSRE core/vessel mockup (carbon steel vessel and loop, aluminium core blocks, model tolerances normally doubled vs reactor; control rods and specimen holder NOT modelled), water at 75-80 F in the loop (Re about 4x reactor) unless stated; flow 1200 gpm = reactor design fuel flow (5 in. inlet pipe). Velocity decreases down the annulus as the tangential component decays. The volute elevation (~55-60 in.) is marked on the figure.
+# Stated uncertainty: none given in report. Digitisation reading uncertainty: about +-0.03 ft/s in velocity and +-0.2 in. in height (gridline-fit residuals <= 1.8 px in x, <= 1.9 px in y). Cross-check not used for calibration: report text says 7.2 ft/s at 30 in. up at 1200 gpm; the digitised points bracket this (6.56 at 23.5 in., 7.73 at 35.4 in.).
+flow_gpm,distance_up_annulus_in,fluid_velocity_at_annulus_centre_ft_per_s
+1200,5.6,5.68
+1200,11.5,5.93
+1200,23.5,6.56
+1200,35.4,7.73
+1200,41.7,8.67
+1200,47.5,11.07
+600,5.5,2.89
+600,11.4,3.02
+600,23.4,3.26
+600,35.3,3.76
+600,47.4,5.45
+300,5.5,1.28
+300,11.4,1.42
+300,23.4,1.64
+300,35.2,1.91
+300,47.4,2.92

@@ -1,0 +1,20 @@
+# AI-GENERATED, NOT HUMAN-REVIEWED. Transcribed by an AI agent (Claude Sonnet) on 2026-10-09 from a public-domain ORNL report. Untrusted draft data; check against the cited page. Research, education and V&V only.
+# Source: ORNL-TM-3464, "Xenon Behavior in the Molten-Salt Reactor Experiment", Table 2 (printed p.15, PDF p.21), Table 3 (printed p.29, PDF p.35), text p.15 (PDF p.21). Image-checked.
+# Method: table transcription
+# Quantity: measured steady-state 135Xe reactivity poisoning at power.
+# Units: power MW; poisoning % dk/k
+# Stated uncertainty: none stated. Standard conditions (footnote): 1210 F core outlet temperature, 5 psig overpressure, normal pump-tank salt level. Voids present (helium) per report; poisoning depends strongly on circulating void fraction.
+fuel,date_mm_dd_yy,power_MW,xenon_poisoning_pct_dk_per_k,note
+235U,04/28/66,5,0.32,"Table 2; early measurement, some voids probably present"
+235U,05/15/66,6.7,0.35,"Table 2"
+235U,05/25/66,7.2,0.30,"Table 2"
+235U,routine (most of 235U operation),~7.2 (full power),0.26 to 0.28,"text range, standard conditions"
+235U,Run 14,~7.2 (full power),0.34 to 0.35,"text range; consistently at standard conditions in Run 14"
+233U,02/21/69,full power,0.36,"Table 3 (power not tabulated)"
+233U,02/25/69,full power,0.36,"Table 3"
+233U,04/15/69,full power,0.32,"Table 3"
+233U,04/18/69,full power,0.40,"Table 3"
+233U,10/06/69,full power,0.51,"Table 3"
+233U,10/20/69,full power,0.39,"Table 3"
+233U,11/29/69,full power,0.44,"Table 3"
+233U,12/11/69,full power,0.45,"Table 3"
