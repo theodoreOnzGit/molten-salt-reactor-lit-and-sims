@@ -58,15 +58,27 @@ the circulation loss must come out of this transport.
 - `teh-o-prke`: 6-group PRKE for U-235/U-233, no drift. **The reduced model
   is new physics to add here**, as the backend's MSRE scoping document
   proposes.
-- `outram-foam-appbuilder-lib` GeN-Foam: liquid-fuel precursor advection
-  deferred in all four neutronics models.
+- `outram-foam-appbuilder-lib` GeN-Foam (published crate): ~~liquid-fuel
+  precursor advection deferred in all four neutronics models~~ **CORRECTED
+  2026-10-17 (backend `develop`, `21a93d9`):** the diffusion **eigenvalue**
+  has precursor drift (`src/genfoam/neutronics/diffusion/precursor_drift/`),
+  code-to-code against upstream GeN-Foam's `2D_MSFR` tutorial at +0.2 pcm on a
+  drift worth of −177.8 pcm. Transients, point kinetics, SP3 and S_N still
+  defer it. This is a second, independent spatial reference for the
+  circulation loss, and the only one in a crate this repository can already
+  depend on.
+- `outram-mc-libs` (develop): β_eff by k-ratio and adjoint-weighted IFP, and
+  Λ (`src/physics/kinetics.rs`, `src/physics/ifp.rs`). A source of
+  stationary-fuel β_eff for the reduced model, once a salt-fuelled MC model can
+  be built (MS-02 blocker).
 
 ## Verification
 
 - T-C1 (#36): reduced model vs the analytical circulating-fuel solution
   (ORNL-TM-4179).
-- Reduced model vs the spatial model: effective delayed fraction and
-  circulation loss at several flows. State the predicted difference from the
+- Reduced model vs the spatial models (moltres ring, GeN-Foam diffusion with
+  drift): effective delayed fraction and circulation loss at several flows. The
+  two spatial models should first agree with each other on one geometry. State the predicted difference from the
   slug-flow assumption before running.
 - Zero-flow limit recovers stationary-fuel point kinetics exactly.
 - T-C2 (#37): MSFR benchmark transient steps (Tiberga et al. 2020).

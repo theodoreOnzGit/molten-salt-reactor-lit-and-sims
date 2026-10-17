@@ -40,8 +40,12 @@ measurement uncertainties recorded in the
 - `raffles`: nine distributions, Monte Carlo, Latin hypercube and grid
   samplers, Pearson and Spearman correlation, Sobol indices
   (`src/distributions.rs`, `src/samplers.rs`, `src/sensitivity.rs`, with
-  tests). Its README still says "scaffold only", which its own source
-  contradicts (an upstream doc defect). Surrogates are a placeholder.
+  tests). ~~Its README still says "scaffold only", which its own source
+  contradicts (an upstream doc defect). Surrogates are a placeholder.~~
+  **CORRECTED 2026-10-17 (backend `develop`):** the README now says
+  "implemented in part, with no human V&V", and the crate adds Bayesian
+  inference, ABC, model selection, fault trees and polynomial and neural
+  surrogates (`src/surrogate/`).
 - `njoy-outram-park-fork` ERRORR and COVR, compared against NJOY2016.
 
 ## Verification

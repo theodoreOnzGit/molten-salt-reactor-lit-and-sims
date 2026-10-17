@@ -50,7 +50,10 @@ Salt freezing in pipes and the radiator.
   `outram-foam-appbuilder-lib` meltFoam with a Stefan-problem verification.
 - `tuas_boussinesq_solver` natural circulation, validated on CIET/DRACS.
   It has the FLiBe freezing point but no freezing model; the `fhr_sim_v2`
-  example notes the solver crashes when salt freezes.
+  example notes the solver crashes when salt freezes. On the backend's
+  `develop` branch, `fhr_sim_v2` gained a `salt_freeze_guard.rs` that pauses
+  the run below the property bound and offers a "melt" its own doc calls a
+  cheat. It is a guard, not a solidification model.
 
 ## Verification
 

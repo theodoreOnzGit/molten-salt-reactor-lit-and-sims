@@ -36,7 +36,8 @@ Tracking issue (epic): #42
 | [MS-16](MS-16-uncertainty-quantification.md) | Uncertainty quantification | `raffles` | supplies error bars to all | #58 |
 
 What each crate offers, crate by crate and aspect by aspect:
-[`outram-park-capabilities.md`](outram-park-capabilities.md).
+[`outram-park-capabilities.md`](outram-park-capabilities.md), surveyed on the
+backend's `develop` branch (commit `21a93d9`, 2026-10-17).
 
 ## Dependencies between models
 
@@ -82,6 +83,17 @@ version (AGENTS.md §4).
   (MS-12), all of tritium (MS-13), freezing in 1-D TH (MS-14).
 - **No benchmark yet** for salt chemistry, graphite, tritium, drain and freeze
   valves, or fission-product distribution. Each spec's issue tracks filing one.
-- **The `outram-mc-libs` measured-critical bias** (+2950 ± 61 pcm on
+- ~~**The `outram-mc-libs` measured-critical bias** (+2950 ± 61 pcm on
   LEU-COMP-THERM-008, by its own record) must be resolved before MSRE
-  criticality comparisons mean anything.
+  criticality comparisons mean anything.~~ **CORRECTED 2026-10-17:** the
+  survey first read the backend's stale `main` branch. On `develop`
+  (`21a93d9`) that bias was a geometry defect and is fixed; the case now reads
+  +48 to +67 pcm against OpenMC's +98 pcm on the same deck.
+- **Blockers for an MSRE Monte Carlo model** (backend `develop`):
+  `FuelForm::MoltenSalt` in `outram-mc-libs` is not yet supported (upstream
+  #937), and there are no Zr or Ni ENDF tapes in the backend's reference data.
+- **Model inputs not yet extracted.** The specs cite the reports holding MSRE
+  geometry, compositions and loop dimensions (ORNL-TM-0728, -0730, -3007,
+  ORNL-4123) but no numbers have been transcribed from them yet. That
+  extraction is the next step before either the Monte Carlo (MS-02) or the
+  loop (MS-05) model can be built.

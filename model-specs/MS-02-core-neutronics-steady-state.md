@@ -40,11 +40,26 @@ isothermal. Out of scope here: circulating fuel (MS-03), burn-up (MS-04).
 
 ## OUTRAM PARK starting point
 
-- `outram-mc-libs`: CSG k-eigenvalue, S(α,β), tallies. Its own records show
-  a +2950 ± 61 pcm bias on ICSBEP LEU-COMP-THERM-008 and +1107 pcm on Godiva.
-  **That bias must be resolved or bounded before an MSRE k_eff means anything.**
-- `njoy-outram-park-fork`: processing for Be-9, F-19, Li-6 is in its NJOY2016
-  comparison tests; Li-7 and Zr isotopes are not (#10).
+(Checked on the backend's `develop` branch, commit `21a93d9`.)
+
+- `outram-mc-libs`: CSG k-eigenvalue, S(α,β), tallies, β_eff by k-ratio and
+  IFP. ~~Its own records show a +2950 ± 61 pcm bias on ICSBEP
+  LEU-COMP-THERM-008 and +1107 pcm on Godiva. That bias must be resolved or
+  bounded before an MSRE k_eff means anything.~~ **CORRECTED 2026-10-17:** the
+  +2950 pcm was a lattice-geometry defect, fixed on `develop`; the full
+  LEU-COMP-THERM-008 model now reads +48 to +67 ± ~20 pcm against OpenMC's
+  +98 ± 23 on the same deck (`examples/lct008_keff.rs`,
+  `verification_and_validation/icsbep/five_route_keff/`). Godiva still reads
+  +1107 pcm in an older LOW-tier record; check it is current before relying on
+  fast-spectrum results.
+- **Blocker: `FuelForm::MoltenSalt` returns `UnsupportedFuelForm`**
+  (`src/model/material.rs:194-200`, upstream issue #937). Until it resolves,
+  the MSRE fuel salt cannot be entered as a fuel material. Entering it as a
+  plain material may be possible; check before building.
+- `njoy-outram-park-fork`: Be-9, F-19, Li-6 are in its NJOY2016 comparison
+  tests; ~~Li-7 and Zr isotopes are not~~ Li-7 is in the 0 K ACER comparison
+  document (not a gated test). **No Zr or Ni ENDF tapes exist in
+  `reference-data/endf/`**; both are needed (fuel salt and Hastelloy N) (#10).
 - `outram-foam-appbuilder-lib` GeN-Foam diffusion/SP3 for the fast path.
 
 ## Verification
@@ -71,8 +86,12 @@ it in the V&V record before the first run.
 
 ## Known traps
 
-- **The +2950 pcm measured-critical bias in `outram-mc-libs`.** Do not
-  interpret an MSRE result until it is explained.
+- ~~The +2950 pcm measured-critical bias in `outram-mc-libs`. Do not
+  interpret an MSRE result until it is explained.~~ Resolved on `develop`
+  (see above). The remaining trap is that the LEU-COMP-THERM-008 record uses
+  a stand-in ±600 pcm benchmark uncertainty; a thermal-spectrum water lattice
+  also does not exercise graphite S(α,β) or a salt fuel. N-C1 against OpenMC
+  is still needed on an MSRE-like geometry.
 - **Graphite and salt temperatures differ at power.** N-3 is isothermal;
   compare against an isothermal calculation.
 - **Rod worth depends on the measurement method** (period vs rod-bump,
