@@ -13,6 +13,7 @@ molten salt reactor models, both solid and liquid fuelled, built on the
 | [`literature/`](literature/moltensalt-org/README.md) | 293 public-domain AEC-era reports (1949–1977), with the copyright basis and the list of what was excluded |
 | [`validation-data/ai-generated/`](validation-data/ai-generated/README.md) | Measured data transcribed and digitised **by AI agents, not yet human-reviewed**, including a list of the figures that could not be digitised |
 | [`benchmarks/`](benchmarks/) | Benchmark specifications: [neutronics](benchmarks/neutronics.md), [thermal hydraulics](benchmarks/thermal-hydraulics.md), [materials](benchmarks/materials.md), [transients](benchmarks/transients.md) |
+| [`model-specs/`](model-specs/README.md) | Model specifications for each aspect of reactor design (properties, neutronics, kinetics, depletion, thermal hydraulics, components, chemistry, materials, graphite, tritium, decay heat, plant dynamics, uncertainty), mapped to OUTRAM PARK and to the benchmarks that validate them. AI-drafted, not human-reviewed |
 | [`crates/`](crates/msr-sims/) | Rust workspace that depends on every OUTRAM PARK crate on crates.io |
 
 Agent and contributor principles: [`AGENTS.md`](AGENTS.md).
